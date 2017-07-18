@@ -2,10 +2,10 @@
   <div id="app">
   	<commonHeader></commonHeader>
     <div class="banner">
-    	<div class="banner-bg">
+    	<div class="banner-center">
     		<ul class="banner-nav">
 	    		<template v-for="(item,index) in banner.list">
-	    			<li class="banner-item item-1">{{index}}</li>
+	    			<li class="banner-item" @click="bannerChoose(index)" >{{index}}</li>
     			</template>
     		</ul>
     	</div>
@@ -19,6 +19,7 @@ export default {
   name: 'app',
   data () {
     return {
+    	num:"",
       msg: 'Welcome to Your Vue.js App',
       banner:{
       	list:[
@@ -31,7 +32,16 @@ export default {
       }
     }
   },
-  components: { commonHeader }
+  components: { commonHeader },
+  
+	methods:{
+		bannerChoose(index){
+			var vm = this;
+			vm.num=index;
+		}
+		
+	}
+  
 }
 </script>
 
@@ -41,6 +51,19 @@ export default {
 	margin: 0 auto;
 }
 .banner {
-	
+	width: 100%;
+	height: 577px;
+	background: url(/src/css/img/banner-bg-1.jpg) no-repeat center #eee5dc;
+}
+.banner-center {
+	position: relative;
+	margin: 0 auto;
+	width: 1200px;
+	height: 100%;
+}
+.banner-nav {
+	position: absolute;
+	right: 100px;
+	bottom: 30px;
 }
 </style>
