@@ -8,6 +8,9 @@ module.exports = {
     publicPath: '/dist/',
     filename: 'build.js'
   },
+// resolveLoader: {
+//  modules: path.join(__dirname, 'node_modules')
+//},
   module: {
     rules: [
       {
@@ -34,16 +37,14 @@ module.exports = {
     ]
   },
   resolve: {
-    alias: {
-      'vue$': 'vue/dist/vue.esm.js'
-    }
+//  alias: {
+//    'vue$': 'vue/dist/vue.esm.js'
+//  }
+		alias: {vue: 'vue/dist/vue.js'}
   },
   devServer: {
     historyApiFallback: true,
-    noInfo: true,
-
-    port:8090
-
+    noInfo: true
   },
   performance: {
     hints: false

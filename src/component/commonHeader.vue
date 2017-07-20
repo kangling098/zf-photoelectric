@@ -8,8 +8,9 @@
 				</a>
 				<ul class="nav-center">
 					<template v-for="(item,index) in navlist">
-						<li class="nav-item-wrapper">
-							<a class="nav-item" v-bind:class='{"active":index==0}' :href="item.url">{{item.name}}</a>
+						<li class="nav-item-wrapper"  @click="activeHeader(item)">
+							<router-link class="nav-item" v-bind:class='{"active":item.active}' :to="item.url">{{item.name}}</router-link>
+							<!--<a class="nav-item" v-bind:class='{"active":index==0}' :href="item.url">{{item.name}}</a>-->
 						</li>
 					</template>
 				</ul>
@@ -33,20 +34,35 @@
 				author: "微信公众号 jinkey-love",
 				navlist: [{
 					name: "首页",
-					url: "/"
+					url: "/",
+					active:true
 				}, {
 					name: "关于兆丰",
-					url: "/about/"
+					url: "/abouts/",
+					active:false
 				}, {
 					name: "产品展示",
-					url: "/production/"
+					url: "/production/",
+					active:false
 				}, {
 					name: "用户服务",
-					url: "/service/"
+					url: "/service/",
+					active:false
 				}, {
 					name: "人才招聘",
-					url: "/join/"
+					url: "/join/",
+					active:false
 				}]
+			}
+		},
+		methods:{
+			activeHeader(item){
+//				console.log(10)
+				var vm = this;
+				vm.navlist.forEach(function(value, index, array){
+					value.active=false;
+				})
+				item.active=true;
 			}
 		}
 	}
@@ -65,12 +81,12 @@
 		margin: 0 auto;
 		width: 100%;
 		width: 1200px;
-		height: 99px;
+		height: 82px;
 	}
 	.logo-bg {
 		position: absolute;
 		left: 29px;
-		top: 33px;
+		top: 24px;
 		display: block;
 		width: 133px;
 		height: 44px;
@@ -88,7 +104,7 @@
 	.nav-item-wrapper {
 		float: left;
 		height: 100%;
-		line-height: 110px;
+		line-height: 82px;
 		text-align: center;
 	}
 	

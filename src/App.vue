@@ -1,47 +1,7 @@
 <template>
   <div id="app">
   	<commonHeader></commonHeader>
-
-    <div class="banner" v-bind:class="'banner-' + num">
-    	<div class="banner-center">
-    		<ul class="banner-nav">
-	    		<template v-for="(item,index) in banner.list">
-	    			<li class="banner-item" v-bind:class="'item' + index"  @click="bannerChoose(item.num)" >{{index}}</li>
-
-    			</template>
-    		</ul>
-    	</div>
-    </div>
-    <div class="auto banner-bottom">
-    	<div class="content">
-	    	<a class="banner-more-link" href="javascript:;">
-	    		 更多&gt;&nbsp;&nbsp;&nbsp;
-	    	</a>
-    	</div>
-    </div>
-    <div class="auto">
-    	<div class="content news-content clearfix">
-    		<div class="news-item-content news-item-1">
-    			<div class="news-item-title">
-    				新品推荐&nbsp;&nbsp;&nbsp;&nbsp;<span class="news-item-title-english">New Arrivals</span>
-    			</div>
-    			<div class="product-bg">
-    				<p class="product-title">ZG-2B</p>
-    				<p class="product-sub-title">超薄液晶LED观光灯</p>
-    			</div>
-    		</div>
-    		<div class="news-item-content news-item-2">
-    			<div class="news-item-title">
-    				新闻资讯&nbsp;&nbsp;&nbsp;&nbsp;<span class="news-item-title-english">News</span>
-    			</div>
-    		</div>
-    		<div class="news-item-content news-item-3">
-    			<div class="news-item-title">
-    				用户案例&nbsp;&nbsp;&nbsp;&nbsp;<span class="news-item-title-english">User Case</span>
-    			</div>
-    		</div>
-    	</div>
-    </div>
+		<router-view class="view"></router-view>
   </div>
 </template>
 
@@ -49,67 +9,7 @@
 import commonHeader from './component/commonHeader.vue'
 export default {
   name: 'app',
-  data () {
-    return {
-
-    	activeColor: 'red',
-  		fontSize: 30,
-
-    	num:1,
-      msg: 'Welcome to Your Vue.js App',
-      bannerStyle: {
-      	backgroudImage:'url(css/img/banner-bg-1.jpg)'
-      	
-      },
-      banner:{
-      	num:1,
-      	list:[
-      		{
-      			name:"p1",
-      			num:1
-      		},{
-      			name:"p1",
-      			num:2
-      		},{
-      			name:"p1",
-      			num:3
-      		},{
-      			name:"p1",
-      			num:4
-      		},{
-      			name:"p1",
-      			num:5
-      		}
-      	]
-      }
-    }
-  },
-  components: { commonHeader },
-	created:function(){
-		var vm=this;
-		setInterval(function(){
-			if(vm.num<5){
-				vm.num=vm.num+1;
-			}else {
-				vm.num=1;
-			}
-			console.log(vm.num)
-		},5000)
-	},
-	methods:{
-
-		bannerChoose(num){
-			var vm = this;
-			vm.num=num;
-			console.log(num)
-//			vm.bannerStyle.backgroundImage=style;
-//			console.log(vm.bannerStyle.backgroundImage)
-			
-
-		}
-		
-	}
-  
+  components: { commonHeader }
 }
 </script>
 
