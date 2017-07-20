@@ -85,7 +85,17 @@ export default {
     }
   },
   components: { commonHeader },
-  
+	created:function(){
+		var vm=this;
+		setInterval(function(){
+			if(vm.num<5){
+				vm.num=vm.num+1;
+			}else {
+				vm.num=1;
+			}
+			console.log(vm.num)
+		},5000)
+	},
 	methods:{
 
 		bannerChoose(num){
@@ -117,13 +127,13 @@ export default {
 	background:url(/src/css/img/banner-bg-1.jpg)  no-repeat center #eee5dc;
 }
 .banner-2 {
-	background:url(/src/css/img/banner-bg-2.jpg)  no-repeat center #eee5dc;
+	background:url(/src/css/img/banner-bg-2.jpg)  no-repeat center #fff;
 }
 .banner-3 {
-	background:url(/src/css/img/banner-bg-3.jpg)  no-repeat center #eee5dc;
+	background:url(/src/css/img/banner-bg-3.jpg)  no-repeat center #fff;
 }
 .banner-4 {
-	background:url(/src/css/img/banner-bg-4.jpg)  no-repeat center #eee5dc;
+	background:url(/src/css/img/banner-bg-4.jpg)  no-repeat center #fff;
 }
 .banner-5 {
 	background:url(/src/css/img/banner-bg-5.jpg)  no-repeat center #eee5dc;
