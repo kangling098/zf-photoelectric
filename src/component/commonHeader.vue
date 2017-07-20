@@ -10,7 +10,6 @@
 					<template v-for="(item,index) in navlist">
 						<li class="nav-item-wrapper"  @click="activeHeader(item)">
 							<router-link class="nav-item" v-bind:class='{"active":item.active}' :to="item.url">{{item.name}}</router-link>
-							<!--<a class="nav-item" v-bind:class='{"active":index==0}' :href="item.url">{{item.name}}</a>-->
 						</li>
 					</template>
 				</ul>

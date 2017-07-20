@@ -31,6 +31,13 @@
 	    			<div class="news-item-title">
 	    				新闻资讯&nbsp;&nbsp;&nbsp;&nbsp;<span class="news-item-title-english">News</span>
 	    			</div>
+	    			<div class="mews-item-2-left">
+	    				<template v-for="item in news.list">
+	    					<a :href="item.url">
+	    						{{item.title}}
+	    					</a>
+	    				</template>
+	    			</div>
 	    		</div>
 	    		<div class="news-item-content news-item-3">
 	    			<div class="news-item-title">
@@ -73,6 +80,20 @@ export default {
       			num:5
       		}
       	]
+      },
+      news:{
+      	list:[
+      		{
+      			title:"照明行业细分市场1",
+      			url:"/news/arctile/#1"
+      		},{
+      			title:"照明行业细分市场5",
+      			url:"/news/arctile/#2"
+      		},{
+      			title:"照明行业细分市场3",
+      			url:"/news/arctile/#3"
+      		}
+      	]
       }
     }
   },
@@ -100,7 +121,7 @@ export default {
 </script>
 
 <style>
-#app {
+#index {
 	min-width: 1200px;
 	margin: 0 auto;
 }
@@ -142,17 +163,17 @@ export default {
 
 }
 .banner-bottom {
-	height: 80px;
+	height: 40px;
 	background-color: #323232;
 }
 .banner-more-link {
 	float: right;	
 	margin: 0 auto;
 	width: 1200px;
-	height: 80px;
+	height: 40px;
 	text-align: right;
-	font-size: 24px;
-	line-height: 80px;
+	font-size: 14px;
+	line-height: 40px;
 	color: #fff;
 }
 .news-content {
