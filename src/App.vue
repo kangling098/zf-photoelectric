@@ -2,11 +2,11 @@
   <div id="app">
   	<commonHeader></commonHeader>
 
-    <div class="banner" v-bind:style="bannerStyle">
+    <div class="banner" v-bind:class="'banner-' + num">
     	<div class="banner-center">
     		<ul class="banner-nav">
 	    		<template v-for="(item,index) in banner.list">
-	    			<li class="banner-item" v-bind:class="'item' + index"  @click="bannerChoose(item.style)" >{{index}}</li>
+	    			<li class="banner-item" v-bind:class="'item' + index"  @click="bannerChoose(item.num)" >{{index}}</li>
 
     			</template>
     		</ul>
@@ -55,29 +55,30 @@ export default {
     	activeColor: 'red',
   		fontSize: 30,
 
-    	num:"",
+    	num:1,
       msg: 'Welcome to Your Vue.js App',
       bannerStyle: {
-      	backgroudImage:'url(/src/css/img/banner-bg-1.jpg)'
+      	backgroudImage:'url(css/img/banner-bg-1.jpg)'
       	
       },
       banner:{
+      	num:1,
       	list:[
       		{
       			name:"p1",
-      			style:"url(/src/css/img/banner-bg-1.jpg)"
+      			num:1
       		},{
       			name:"p1",
-      			style:"url(/src/css/img/banner-bg-2.jpg)"
+      			num:2
       		},{
       			name:"p1",
-      			style:"url(/src/css/img/banner-bg-3.jpg)"
+      			num:3
       		},{
       			name:"p1",
-      			style:"url(/src/css/img/banner-bg-4.jpg)"
+      			num:4
       		},{
       			name:"p1",
-      			style:"url(/src/css/img/banner-bg-5.jpg)"
+      			num:5
       		}
       	]
       }
@@ -87,11 +88,12 @@ export default {
   
 	methods:{
 
-		bannerChoose(style){
+		bannerChoose(num){
 			var vm = this;
-vm.activeColor="black";
-			vm.bannerStyle.backgroundImage=style;
-			console.log(vm.bannerStyle.backgroundImage)
+			vm.num=num;
+			console.log(num)
+//			vm.bannerStyle.backgroundImage=style;
+//			console.log(vm.bannerStyle.backgroundImage)
 			
 
 		}
@@ -108,10 +110,23 @@ vm.activeColor="black";
 }
 .banner {
 	width: 100%;
-	height: 577px;
-
-	background:url(css/img/banner-bg-1.jpg)  no-repeat center #eee5dc;
-
+	height: 484px;
+	background:url(/src/css/img/banner-bg-1.jpg)  no-repeat center #eee5dc;
+}
+.banner-1 {
+	background:url(/src/css/img/banner-bg-1.jpg)  no-repeat center #eee5dc;
+}
+.banner-2 {
+	background:url(/src/css/img/banner-bg-2.jpg)  no-repeat center #eee5dc;
+}
+.banner-3 {
+	background:url(/src/css/img/banner-bg-3.jpg)  no-repeat center #eee5dc;
+}
+.banner-4 {
+	background:url(/src/css/img/banner-bg-4.jpg)  no-repeat center #eee5dc;
+}
+.banner-5 {
+	background:url(/src/css/img/banner-bg-5.jpg)  no-repeat center #eee5dc;
 }
 .banner-center {
 	position: relative;
@@ -180,7 +195,7 @@ vm.activeColor="black";
 	margin-top: 40px;
 	width: 100%;
 	height: 146px;
-	background: url(css/img/product-bg-01.jpg)  no-repeat 170px 0;
+	background: url(/src/css/img/product-bg-01.jpg)  no-repeat 170px 0;
 }
 .product-title,.product-sub-title {
 	width: 170px;
