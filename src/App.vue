@@ -1,11 +1,13 @@
 <template>
   <div id="app">
   	<commonHeader></commonHeader>
+
     <div class="banner" v-bind:style="bannerStyle">
     	<div class="banner-center">
     		<ul class="banner-nav">
 	    		<template v-for="(item,index) in banner.list">
 	    			<li class="banner-item" v-bind:class="'item' + index"  @click="bannerChoose(item.style)" >{{index}}</li>
+
     			</template>
     		</ul>
     	</div>
@@ -49,8 +51,10 @@ export default {
   name: 'app',
   data () {
     return {
+
     	activeColor: 'red',
   		fontSize: 30,
+
     	num:"",
       msg: 'Welcome to Your Vue.js App',
       bannerStyle: {
@@ -82,12 +86,14 @@ export default {
   components: { commonHeader },
   
 	methods:{
+
 		bannerChoose(style){
 			var vm = this;
 vm.activeColor="black";
 			vm.bannerStyle.backgroundImage=style;
 			console.log(vm.bannerStyle.backgroundImage)
 			
+
 		}
 		
 	}
@@ -103,7 +109,9 @@ vm.activeColor="black";
 .banner {
 	width: 100%;
 	height: 577px;
+
 	background:url(css/img/banner-bg-1.jpg)  no-repeat center #eee5dc;
+
 }
 .banner-center {
 	position: relative;
@@ -115,10 +123,12 @@ vm.activeColor="black";
 	position: absolute;
 	right: 100px;
 	bottom: 30px;
+
 }
 .banner-item {
 	float: left;
 	
+
 }
 .banner-bottom {
 	height: 80px;

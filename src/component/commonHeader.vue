@@ -53,10 +53,12 @@
 </script>
 
 <style>
+
 	@import "../css/common.css";
 	.nav-header-wrapper {
 		width: 100%;
 		background: url(../css/img/common-header-bg.jpg) repeat-x;
+
 	}
 	.nav-header {
 		position: relative;
@@ -72,7 +74,9 @@
 		display: block;
 		width: 133px;
 		height: 44px;
+
 		background: url(../css/img/logo.png) no-repeat center;
+
 	}
 	
 	.nav-center {
