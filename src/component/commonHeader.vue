@@ -84,7 +84,7 @@
 	}
 	.logo-bg {
 		position: absolute;
-		left: 29px;
+		left: 120px;
 		top: 24px;
 		display: block;
 		width: 133px;
@@ -96,7 +96,8 @@
 	
 	.nav-center {
 		margin: 0 auto;
-		width: 800px;
+		padding-left: 40px;
+		width: 680px;
 		height: 100%;
 	}
 	
@@ -110,11 +111,11 @@
 	.nav-item {
 		display: inline-block;
 		margin: 0 20px;
-		padding: 0 20px;
+		padding: 0 12px;
 		height: 68px;
 		border-bottom: 3px solid transparent;
 		color: #333;
-		font-size: 22px;
+		font-size: 16px;
 	}
 	
 	.nav-item:hover,
@@ -125,7 +126,7 @@
 	
 	.nav-right {
 		position: absolute;
-		right: 0;
+		right: 70px;
 		top: 40px;
 		width: 140px;
 		height: 24px;

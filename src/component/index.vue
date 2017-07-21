@@ -266,7 +266,7 @@ export default {
 }
 .news-content {
 	margin: 0 auto;
-	padding: 20px 0;
+	padding: 20px 0 0;
 	width: 980px;
 }
 .news-item-content {

@@ -55,6 +55,7 @@ table {
 }
 a {
 	text-decoration: none;
+	color: #575757;
 }
 img {
 	border: 0px;
@@ -147,4 +148,7 @@ img {
 .content {
 	margin: 0 auto;
 	width: 1200px;
+}
+.margin-bottom-20 {
+	margin-bottom: 20px;
 }
