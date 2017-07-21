@@ -111,7 +111,7 @@
 		display: inline-block;
 		margin: 0 20px;
 		padding: 0 20px;
-		height: 74px;
+		height: 68px;
 		border-bottom: 3px solid transparent;
 		color: #333;
 		font-size: 22px;
@@ -126,14 +126,14 @@
 	.nav-right {
 		position: absolute;
 		right: 0;
-		top: 50px;
-		width: 120px;
+		top: 40px;
+		width: 140px;
 		height: 24px;
 		line-height: 24px;
 	}
 	
 	.change-language-a {
-		font-size: 18px;
+		font-size: 12px;
 		color: #474444;
 	}
 	
