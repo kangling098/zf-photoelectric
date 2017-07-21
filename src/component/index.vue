@@ -1,7 +1,8 @@
 <template>
 	<div id="index">
-		<a :href="banner.mainBanner[bannerNum].url" class="banner" v-bind:class="'banner-' + num">
-	    	<div class="banner-center">
+		<div class="banner" v-bind:class="'banner-' + num">
+			<a :href="banner.mainBanner[bannerNum].url" class="banner-link"></a>
+		    <div class="banner-center">
 	    		<ul class="banner-nav clearfix">
 		    		<template v-for="(item,index) in banner.list">
 		    			<li class="banner-item"
@@ -10,7 +11,8 @@
 	    			</template>
 	    		</ul>
 	    	</div>
-	    </a>
+		</div>
+		
 	    <div class="auto banner-bottom">
 	    	<div class="content">
 		    	<a class="banner-more-link" href="javascript:;">
@@ -162,10 +164,20 @@ export default {
 	margin: 0 auto;
 }
 .banner {
+	position: relative;
 	display: block;
+	padding-top: 400px;
 	width: 100%;
 	height: 484px;
 	background:url(../css/img/index/banner-bg-1.jpg)  no-repeat center #eee5dc;
+}
+.banner-link {
+	position: absolute;
+	top: 0;
+	display: block;
+	width: 100%;
+	height: 484px;
+	z-index: 1;
 }
 .banner-1 {
 	background:url(../css/img/index/banner-bg-1.jpg)  no-repeat center #eee5dc;
@@ -183,15 +195,16 @@ export default {
 	background:url(../css/img/index/banner-bg-5.jpg)  no-repeat center #eee5dc;
 }
 .banner-center {
+	z-index: 2;
 	position: relative;
 	margin: 0 auto;
 	width: 1200px;
-	height: 100%;
+	height: 52px;
 }
 .banner-nav {
 	position: absolute;
 	right: 100px;
-	bottom: 30px;
+	bottom: 0px;
 
 }
 .banner-item {
@@ -317,7 +330,7 @@ export default {
 .news-item-link:before {
 	position: absolute;
 	left: -2px;
-	top: 6px;
+	top: 8px;
 	content: "*";
 	display: block;
 	width: 6px;
