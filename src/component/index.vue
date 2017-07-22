@@ -62,7 +62,7 @@
 
 <script>
 export default {
-  name: 'app',
+  name: 'index',
   data () {
     return {
     	activeColor: 'red',
@@ -160,6 +160,7 @@ export default {
 
 <style>
 #index {
+	padding-top: 82px;
 	min-width: 1200px;
 	margin: 0 auto;
 }

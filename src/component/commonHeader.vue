@@ -18,6 +18,9 @@
 					<a class="change-language-a english-change" href="javascript:;">English</a>
 				</div>
 			</div>
+			<div class="common-header-menu">
+				
+			</div>
 		</div>
 		<div class="common-menu">
 			
@@ -37,7 +40,7 @@
 					active:true
 				}, {
 					name: "关于兆丰",
-					url: "/abouts/",
+					url: "/about/",
 					active:false
 				}, {
 					name: "产品展示",
@@ -71,6 +74,8 @@
 
 	@import "../css/common.css";
 	.nav-header-wrapper {
+		position: fixed;
+		z-index: 9;
 		width: 100%;
 		background: url(../css/img/common-header-bg.jpg) repeat-x;
 
