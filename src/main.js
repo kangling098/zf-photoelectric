@@ -12,6 +12,7 @@ Vue.use(VueResource);
 // 定义组件, 也可以像教程之前教的方法从别的文件引入
 import index from './component/index.vue';
 import about from './component/about.vue';
+import service from './component/service.vue';
 import commonHeader from './component/commonHeader.vue';
 const arctile={ template: '<div><h2>404</h2></div>' };
 // 创建一个路由器实例
@@ -29,6 +30,10 @@ const router = new VueRouter({
       component: about
     },
     {
+      path: '/service/',
+      component: service
+    },
+    {
       path: '/second',
       component: commonHeader
     },
@@ -40,6 +45,7 @@ const router = new VueRouter({
     	path: '*',
     	component: arctile
     }
+    
   ]
 })
 

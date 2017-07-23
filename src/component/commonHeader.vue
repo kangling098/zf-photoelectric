@@ -66,7 +66,12 @@
 				})
 				item.active=true;
 			}
+		},
+		created:function(){
+			var vm=this;
+			
 		}
+		
 	}
 </script>
 
