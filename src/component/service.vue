@@ -1,12 +1,12 @@
 <template>
-	<div id="about">
-		<div class="about-wrapper">
-			<div class="about-banner">
+	<div id="service">
+		<div class="service-wrapper">
+			<div class="service-banner">
 			</div>
-			<div class="about-list-wrapper auto">
-				<div class="about-list-inner content clearfix">
+			<div class="service-list-wrapper auto">
+				<div class="service-list-inner content clearfix">
 				<template v-for="(item,index) in aboutList">
-					<div @click=aboutChoose(index+1) class="about-choose-item pull-left" :class="'item' + index">
+					<div @click=aboutChoose(index+1) class="service-choose-item pull-left" :class="'item' + index">
 						<div class="border-right">
 							
 						</div>
@@ -15,9 +15,9 @@
 				</template>
 				</div>
 			</div>
-			<div class="about-page-content auto">
-				<div class="about-page-content content">
-					<div v-if="aboutPageList.item1" class="about-page-content-01 first-type">
+			<div class="service-page-content auto">
+				<div class="service-page-content content">
+					<div v-if="aboutPageList.item1" class="service-page-content-01 first-type">
 						<p>
 							湖南兆丰光电科技有限公司
 						</p>
@@ -54,17 +54,17 @@
              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;QQ：3002937239          Emall:bjp@mplent.com
 						</p>
 					</div>
-					<div v-if="aboutPageList.item2" class="about-page-content-01">
+					<div v-if="aboutPageList.item2" class="service-page-content-01">
 						
 						<a class="service-product-a" v-for="item in item2List" :href="item.url">
 							<img :src="item.imgSrc"/>
 						</a>
 					</div>
-					<div v-if="aboutPageList.item3" class="about-page-content-02">
-						<div class="about-organization-bg"></div>
+					<div v-if="aboutPageList.item3" class="service-page-content-02">
+						<div class="service-organization-bg"></div>
 					</div>
-					<div v-if="aboutPageList.item4" class="about-page-content-02">
-						<div class="about-hornor-bg"></div>
+					<div v-if="aboutPageList.item4" class="service-page-content-02">
+						<div class="service-hornor-bg"></div>
 					</div>
 				</div>
 				
@@ -128,31 +128,31 @@ export default {
 </script>
 
 <style>
-#about {
+#service {
 	padding-top: 82px;
 	min-width: 1200px;
 	margin: 0 auto;
 }
-.about-banner {
+.service-banner {
 	height: 680px;
 	background:url(../css/img/service/service-banner-bg.jpg) no-repeat center ;
 }
-.about-list-wrapper {
+.service-list-wrapper {
 	margin-bottom: 78px;
 	height: 148px;
 	background-color: #333333;
 }
-.about-list-inner {
+.service-list-inner {
 	height: 148px;
 }
-.about-choose-item {
+.service-choose-item {
 	height: 102px;
 	width: 399px;
 	font-size: 14px;
 	color: #fff;
 	text-align: center;
 }
-.about-choose-item:hover {
+.service-choose-item:hover {
 	color: #ef7d18;
 	cursor: pointer;
 }
@@ -160,30 +160,30 @@ export default {
 	border-right: 1px solid #fff;
 	height: 86px;
 }
-.item2 .border-right {
+.service-wrapper .item2 .border-right {
 	border: none;
 }
-.about-choose-item.item0 {
-	background: url(../css/img/about/about-item01.png) no-repeat center #333;
+.service-choose-item.item0 {
+	background: url(../css/img/service/service-item01.png) no-repeat center #333;
 }
-.about-choose-item.item1 {
-	background: url(../css/img/about/about-item02.png) no-repeat center #333;
+.service-choose-item.item1 {
+	background: url(../css/img/service/service-item02.png) no-repeat center #333;
 } 
-.about-choose-item.item2 {
-	background: url(../css/img/about/about-item03.png) no-repeat center #333;
+.service-choose-item.item2 {
+	background: url(../css/img/service/service-item03.png) no-repeat center #333;
 }
 
 /*详情页面*/
-.about-page-content {
+.service-page-content {
 	background-color: #fff;
 }
-.about-page-content-01 {
+.service-page-content-01 {
 	padding: 40px 170px 70px;
 }
-.about-page-content-01.first-type{
+.service-page-content-01.first-type{
 	padding: 40px 0 70px 450px ;
 }
-.about-page-content-02 {
+.service-page-content-02 {
 	padding: 40px 0 70px;
 }
 .service-product-a {
@@ -196,22 +196,22 @@ export default {
 	width: 100%;
 	height: 100%;
 }
-.about-page-content-01 p {
+.service-page-content-01 p {
 	margin-bottom: 14px;
 	line-height: 24px;
 	font-size: 14px;
 	color: #333;
 }
-.about-organization-bg {
+.service-organization-bg {
 	margin: 0 auto;
 	width: 857px;
 	height: 457px;
-	background: url(../css/img/about/organization-bg.jpg) no-repeat center;
+	background: url(../css/img/service/organization-bg.jpg) no-repeat center;
 }
-.about-hornor-bg {
+.service-hornor-bg {
 	margin: 0 auto;
 	width: 1064px;
 	height: 522px;
-	background: url(../css/img/about/hornor-bg.jpg) no-repeat center;
+	background: url(../css/img/service/hornor-bg.jpg) no-repeat center;
 }
 </style>

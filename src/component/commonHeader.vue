@@ -37,7 +37,7 @@
 				navlist: [{
 					name: "首页",
 					url: "/",
-					active:true
+					active:false
 				}, {
 					name: "关于兆丰",
 					url: "/about/",
