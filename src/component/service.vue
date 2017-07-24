@@ -34,23 +34,23 @@
 							网址：http://www.mplent.com     http://www.mplent@mplent.com
 						</p>
 						<p class="p-type-3">
-							东北地区（辽宁/吉林/黑龙江）：</br>
-            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; +86-1731-85229795     18874962016 刘婷</br>
+							东北地区（辽宁/吉林/黑龙江）：<br/>
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; +86-1731-85229795     18874962016 刘婷<br/>
             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  QQ:3002916307           Emall:alice@mplent.com
 						</p>
 						<p class="p-type-3">
-							华北地区（河北/山西/内蒙古？/北京/天津/四川/贵州/云南/西藏）：</br>
-             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;+86-0731-8522977      18874030828  邓雪花</br>
+							华北地区（河北/山西/内蒙古？/北京/天津/四川/贵州/云南/西藏）：<br/>
+             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;+86-0731-8522977      18874030828  邓雪花<br/>
              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;QQ：3002959091         Emall:fgl@mplent.com
 						</p>
 						<p class="p-type-3">
-							华东地区（江苏/浙江/安徽/福建/江西/山东）：</br>
-             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;+86-0731-85229796     13874892211  欧阳伟伟</br>
+							华东地区（江苏/浙江/安徽/福建/江西/山东）：<br/>
+             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;+86-0731-85229796     13874892211  欧阳伟伟<br/>
              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;QQ：3002965025          Emall:fgl@mplent.com
 						</p>
 						<p class="p-type-3">
-							其他地区（河南/湖北/湖南/广东/广西/海南/陕西/甘肃/青海/宁夏/新疆）：</br>
-             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;+86-0731-85229795     13974942022  何建平</br>
+							其他地区（河南/湖北/湖南/广东/广西/海南/陕西/甘肃/青海/宁夏/新疆）：<br/>
+             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;+86-0731-85229795     13974942022  何建平<br/>
              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;QQ：3002937239          Emall:bjp@mplent.com
 						</p>
 					</div>
@@ -165,12 +165,15 @@ export default {
 }
 .service-choose-item.item0 {
 	background: url(../css/img/service/service-item01.png) no-repeat center #333;
+	background-size: 54px 54px;
 }
 .service-choose-item.item1 {
 	background: url(../css/img/service/service-item02.png) no-repeat center #333;
+	background-size: 54px 54px;
 } 
 .service-choose-item.item2 {
 	background: url(../css/img/service/service-item03.png) no-repeat center #333;
+	background-size: 54px 54px;
 }
 
 /*详情页面*/

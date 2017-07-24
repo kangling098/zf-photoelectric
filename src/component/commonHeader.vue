@@ -65,6 +65,7 @@
 					value.active=false;
 				})
 				item.active=true;
+				document.body.scrollTop = document.documentElement.scrollTop = 0;
 			}
 		},
 		created:function(){

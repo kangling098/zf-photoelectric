@@ -155,18 +155,22 @@ export default {
 }
 .about-choose-item.item0 {
 	background: url(../css/img/about/about-item01.png) no-repeat 160px 20px #333;
+	background-size: 54px 54px;
 	padding-left: 160px;
 }
 .about-choose-item.item1 {
 	background: url(../css/img/about/about-item02.png) no-repeat 130px 20px #333;
+	background-size: 54px 54px;
 }
 .about-choose-item.item2 {
 	background: url(../css/img/about/about-item03.png) no-repeat 130px 20px #333;
+	background-size: 54px 54px;
 }
 .about-choose-item.item3 {
 	border: none;
 	background: url(../css/img/about/about-item04.png) no-repeat 74px 20px #333;
 	padding-left: 74px;
+	background-size: 54px 54px;
 }
 
 /*详情页面*/

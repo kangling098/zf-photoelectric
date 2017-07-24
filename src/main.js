@@ -40,7 +40,8 @@ const router = new VueRouter({
     {
       path: '/news/arctile/',
       component: arctile
-    }, 
+    }
+    ,
     { 
     	path: '*',
     	component: arctile

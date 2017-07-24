@@ -193,7 +193,7 @@ export default {
 	background:url(../css/img/index/banner-bg-4.jpg)  no-repeat center #fff;
 }
 .banner-5 {
-	background:url(../css/img/index/banner-bg-5.jpg)  no-repeat center #eee5dc;
+	background:url(../css/img/index/banner-bg-5.jpg)  no-repeat center #fff;
 }
 .banner-center {
 	z-index: 2;
