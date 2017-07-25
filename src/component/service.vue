@@ -54,18 +54,16 @@
              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;QQ：3002937239          Emall:bjp@mplent.com
 						</p>
 					</div>
-					<div v-if="aboutPageList.item2" class="service-page-content-01">
+					<div v-if="aboutPageList.item2" class="service-page-content-02 service-product-wrapper clearfix">
 						
-						<a class="service-product-a" v-for="item in item2List" :href="item.url">
+						<a class="service-product-a" v-for="item in productList" :href="item.url">
 							<img :src="item.imgSrc"/>
 						</a>
 					</div>
-					<div v-if="aboutPageList.item3" class="service-page-content-02">
-						<div class="service-organization-bg"></div>
+					<div v-if="aboutPageList.item3" class="service-page-content-03">
+						<a v-for="item in technicalFileList" :href="item.url">{{item.name}}</a>
 					</div>
-					<div v-if="aboutPageList.item4" class="service-page-content-02">
-						<div class="service-hornor-bg"></div>
-					</div>
+					
 				</div>
 				
 			</div>
@@ -85,7 +83,7 @@ export default {
     		{
     			name:"联系我们"
     		},{
-    			name:"企业文化"
+    			name:"服务产品"
     		},{
     			name:"技术文档"
     		}
@@ -95,18 +93,30 @@ export default {
     		item2:false,
     		item3:false
     	},
-    	item2List:[
+    	productList:[
 	    	{
-	    		imgSrc:"./../css/img/service/service-product-bg1.png"
+	    		imgSrc:require('../assets/service/service-product-bg1.jpg'),
+	    		url:"javascript:;"
+	    	},{        
+	    		imgSrc:require('../assets/service/service-product-bg2.jpg'),
+	    		url:"javascript:;"
+	    	},{        
+	    		imgSrc:require('../assets/service/service-product-bg3.jpg'),
+	    		url:"javascript:;"
+	    	},{        
+	    		imgSrc:require('../assets/service/service-product-bg4.jpg'),
+	    		url:"javascript:;"
 	    	},{         
-	    		imgSrc:"./../css/img/service/service-product-bg2.png"
-	    	},{         
-	    		imgSrc:"./../css/img/service/service-product-bg3.png"
-	    	},{         
-	    		imgSrc:"./../css/img/service/service-product-bg4.png"
-	    	},{         
-	    		imgSrc:"./../css/img/service/service-product-bg5.png"
+	    		imgSrc:require('../assets/service/service-product-bg5.jpg'),
+	    		url:"javascript:;"
 	    	}
+    	],
+    	technicalFileList:[
+    		{url:"javascript:;",name:"兆丰光电电子产业资料"},
+    		{url:"javascript:;",name:"LED观片灯使用说明书"},
+    		{url:"javascript:;",name:"LED视力表使用说明书"},
+    		{url:"javascript:;",name:"LED无影灯使用说明书"},
+    		{url:"javascript:;",name:"视力表厂家的视力表灯箱"},
     	]
     }
   },
@@ -186,35 +196,41 @@ export default {
 .service-page-content-01.first-type{
 	padding: 40px 0 70px 450px ;
 }
-.service-page-content-02 {
-	padding: 40px 0 70px;
-}
-.service-product-a {
-	float: left;
-	width: 280px;
-	height: 134px;
-	
-}
-.service-product-a {
-	width: 100%;
-	height: 100%;
-}
+
 .service-page-content-01 p {
 	margin-bottom: 14px;
 	line-height: 24px;
 	font-size: 14px;
 	color: #333;
 }
-.service-organization-bg {
-	margin: 0 auto;
-	width: 857px;
-	height: 457px;
-	background: url(../css/img/service/organization-bg.jpg) no-repeat center;
+
+/*模块2 产品列表*/
+.service-page-content-02 {
+	padding: 40px 170px 70px;
 }
-.service-hornor-bg {
-	margin: 0 auto;
-	width: 1064px;
-	height: 522px;
-	background: url(../css/img/service/hornor-bg.jpg) no-repeat center;
+.service-page-content-02.service-product-wrapper  {
+	padding-right: 0;
+}
+.service-product-a {
+	float: left;
+	margin-right: 60px;
+	margin-bottom: 40px;
+	width: 280px;
+	height: 134px;
+	
+}
+.service-product-a img{
+	width: 100%;
+	height: 100%;
+}
+/*技术文档*/
+.service-page-content-03 {
+	padding: 40px 170px 70px;
+}
+.service-page-content-03 a {
+	display: block;
+	line-height: 40px;
+	font-size: 18px;
+	color: #333;
 }
 </style>

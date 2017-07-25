@@ -8,7 +8,7 @@
 				</a>
 				<ul class="nav-center">
 					<template v-for="(item,index) in navlist">
-						<li class="nav-item-wrapper"  @click="activeHeader(item)">
+						<li class="nav-item-wrapper"  @click="activeHeader(item)" @mouseenter="headerMenuSpread(index)">
 							<router-link class="nav-item" v-bind:class='{"active":item.active}' :to="item.url">{{item.name}}</router-link>
 						</li>
 					</template>
@@ -18,12 +18,18 @@
 					<a class="change-language-a english-change" href="javascript:;">English</a>
 				</div>
 			</div>
-			<div class="common-header-menu">
-				
+			<!--二级菜单-->
+			<div v-if="commonHeaderIsShow" @mouseleave="commonHeaderHide" class="common-header-menu">
+				<div class="common-header-product-list">
+					<div v-for="item in headerProductList" class="common-header-product-item item-1">
+						<p class="common-product-list-title">
+							<a :href="item.url">{{item.name}}</a>
+						</p>
+						<a v-for="child in item.productList" :href="child.url">{{child.name}}</a>
+					</div>
+					
+				</div>
 			</div>
-		</div>
-		<div class="common-menu">
-			
 		</div>
 	</div>
 	
@@ -33,7 +39,7 @@
 	export default {
 		data() {
 			return {
-				author: "微信公众号 jinkey-love",
+				commonHeaderIsShow:false,
 				navlist: [{
 					name: "首页",
 					url: "/",
@@ -54,18 +60,74 @@
 					name: "人才招聘",
 					url: "/join/",
 					active:false
-				}]
+				}],
+				headerProductList:[
+					{
+						name:"LED无影灯",
+						url:"javascript:;",
+						productList:[
+							{name:"整体反射式无影灯",url:"javascript:;"},
+							{name:"满天星LED无影灯",url:"javascript:;"},
+							{name:"移动式LED无影灯",url:"javascript:;"},
+							{name:"LED无影灯发光引擎",url:"javascript:;"}
+						]
+					},
+					{
+						name:"LED观光灯",
+						url:"javascript:;",
+						productList:[
+							{name:"整体反射式无影灯",url:"javascript:;"},
+							{name:"满天星LED无影灯",url:"javascript:;"},
+							{name:"移动式LED无影灯",url:"javascript:;"},
+							{name:"LED无影灯发光引擎",url:"javascript:;"}
+						]
+					},
+					{
+						name:"LED无影灯",
+						url:"javascript:;",
+						productList:[
+							{name:"整体反射式无影灯",url:"javascript:;"},
+							{name:"满天星LED无影灯",url:"javascript:;"},
+							{name:"移动式LED无影灯",url:"javascript:;"},
+							{name:"LED无影灯发光引擎",url:"javascript:;"}
+						]
+					},
+					{
+						name:"LED无影灯",
+						url:"javascript:;",
+						productList:[
+							{name:"整体反射式无影灯",url:"javascript:;"},
+							{name:"满天星LED无影灯",url:"javascript:;"},
+							{name:"移动式LED无影灯",url:"javascript:;"},
+							{name:"LED无影灯发光引擎",url:"javascript:;"}
+						]
+					}
+				]
 			}
 		},
 		methods:{
+			//控制公共头部点击变亮
 			activeHeader(item){
-//				console.log(10)
 				var vm = this;
 				vm.navlist.forEach(function(value, index, array){
 					value.active=false;
 				})
 				item.active=true;
 				document.body.scrollTop = document.documentElement.scrollTop = 0;
+			},
+			//控制产品列表菜单显现
+			headerMenuSpread(index){
+				var vm = this;
+				if(index==2){
+					vm.commonHeaderIsShow=true;
+				}else {
+					vm.commonHeaderIsShow=false;
+				}
+			},
+			//鼠标离开产品菜单,隐藏菜单
+			commonHeaderHide(){
+				var vm = this;
+				vm.commonHeaderIsShow=false;
 			}
 		},
 		created:function(){
@@ -152,4 +214,12 @@
 	.change-language-a.active {
 		color: #ee7c17;
 	}
+/*二级菜单*/
+.common-header-menu {
+	position: absolute;
+	top: 82px;
+	width: 100%;
+	height: 290px;
+	background: #323232;
+}
 </style>
