@@ -66,10 +66,10 @@
 						name:"LED无影灯",
 						url:"javascript:;",
 						productList:[
-							{name:"整体反射式无影灯",url:"javascript:;"},
-							{name:"满天星LED无影灯",url:"javascript:;"},
-							{name:"移动式LED无影灯",url:"javascript:;"},
-							{name:"LED无影灯发光引擎",url:"javascript:;"}
+							{name:"整体反射式无影灯",url:"/product/detail#001"},
+							{name:"满天星LED无影灯",url:"/product/detail#003"},
+							{name:"移动式LED无影灯",url:"/product/detail#002"},
+							{name:"LED无影灯发光引擎",url:"/product/detail#004"}
 						]
 					},
 					{
