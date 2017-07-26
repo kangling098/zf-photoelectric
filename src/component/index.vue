@@ -12,7 +12,13 @@
 	    		</ul>
 	    	</div>
 		</div>
-		
+		<div class="hide">
+			<div class="banner banner-1"></div>
+			<div class="banner banner-2"></div>
+			<div class="banner banner-3"></div>
+			<div class="banner banner-4"></div>
+			<div class="banner banner-5"></div>
+		</div>
 	    <div class="auto banner-bottom">
 	    	<div class="content">
 		    	<a class="banner-more-link" href="javascript:;">
