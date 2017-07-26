@@ -19,13 +19,13 @@
 				</div>
 			</div>
 			<!--二级菜单-->
-			<div v-if="commonHeaderIsShow" @mouseleave="commonHeaderHide" class="common-header-menu">
+			<div v-show="commonHeaderIsShow" @mouseleave="commonHeaderHide" class="common-header-menu">
 				<div class="common-header-product-list">
-					<div v-for="item in headerProductList" class="common-header-product-item item-1">
-						<p class="common-product-list-title">
+					<div v-for="(item,index) in headerProductList" class="common-header-product-item">
+						<p class="common-product-list-title" :class="'title-' + (index+1)">
 							<a :href="item.url">{{item.name}}</a>
 						</p>
-						<a v-for="child in item.productList" :href="child.url">{{child.name}}</a>
+						<a v-for="child in item.productList" class="common-product-list-item" :href="child.url">{{child.name}}</a>
 					</div>
 					
 				</div>
@@ -39,7 +39,7 @@
 	export default {
 		data() {
 			return {
-				commonHeaderIsShow:false,
+				commonHeaderIsShow:true,
 				navlist: [{
 					name: "首页",
 					url: "/",
@@ -76,30 +76,30 @@
 						name:"LED观光灯",
 						url:"javascript:;",
 						productList:[
-							{name:"整体反射式无影灯",url:"javascript:;"},
-							{name:"满天星LED无影灯",url:"javascript:;"},
-							{name:"移动式LED无影灯",url:"javascript:;"},
-							{name:"LED无影灯发光引擎",url:"javascript:;"}
+							{name:"超薄液晶侧发光LED观片灯",url:"javascript:;"},
+							{name:"超高亮背发光LED观片灯",url:"javascript:;"},
+							{name:"嵌入式LED观片灯",url:"javascript:;"}
 						]
 					},
 					{
-						name:"LED无影灯",
+						name:"LED视力表",
 						url:"javascript:;",
 						productList:[
-							{name:"整体反射式无影灯",url:"javascript:;"},
-							{name:"满天星LED无影灯",url:"javascript:;"},
-							{name:"移动式LED无影灯",url:"javascript:;"},
-							{name:"LED无影灯发光引擎",url:"javascript:;"}
+							{name:"多功能LED视力表",url:"javascript:;"},
+							{name:"5米E字LED视力表",url:"javascript:;"},
+							{name:"5米C字LED视力表",url:"javascript:;"},
+							{name:"2.5米儿童LED视力表",url:"javascript:;"},
+							{name:"超薄款2.5米E字视力表",url:"javascript:;"}
+							
 						]
 					},
 					{
-						name:"LED无影灯",
+						name:"更多产品",
 						url:"javascript:;",
 						productList:[
-							{name:"整体反射式无影灯",url:"javascript:;"},
-							{name:"满天星LED无影灯",url:"javascript:;"},
-							{name:"移动式LED无影灯",url:"javascript:;"},
-							{name:"LED无影灯发光引擎",url:"javascript:;"}
+							{name:"LED净化灯",url:"javascript:;"},
+							{name:"医用显示器",url:"javascript:;"},
+							{name:"模拟触电体验仪",url:"javascript:;"}
 						]
 					}
 				]
@@ -222,4 +222,81 @@
 	height: 290px;
 	background: #323232;
 }
+.common-header-product-list {
+	margin: 0 auto;
+	width: 1000px;
+}
+.common-header-product-item {
+	float: left;
+	position: relative;
+	width: 25%;
+	height: 160pxpx;
+	padding-top: 28px;
+	padding-left: 28px;
+}
+.common-header-product-item:before {
+	content: " ";
+	display: block;
+	position: absolute;
+	width: 1px;
+	height: 150px;
+	left: 3px;
+	background-color: #fff;
+}
+.common-header-product-item:first-child:before {
+	display: none;
+}
+.common-product-list-title {
+	padding-left: 58px;
+	height: 46px;
+	background: url(../css/img/header/header-p-01.png) no-repeat top left;
+	background-size: 36px 36px;
+}
+.common-product-list-title >a {
+	color: #fff;
+	line-height: 24px;
+	font-size: 20px;
+}
+.common-product-list-title:hover >a {
+	color: #ef7d18;
+}
+.common-product-list-title:hover {
+	background: url(../css/img/header/header-p-active-01.png) no-repeat top left;
+	background-size: 36px 36px;
+}
+.common-product-list-title.title-2 {
+	background: url(../css/img/header/header-p-02.png) no-repeat top left;
+	background-size: 36px 36px;
+}
+.common-product-list-title.title-2:hover {
+	background: url(../css/img/header/header-p-active-02.png) no-repeat top left;
+	background-size: 36px 36px;
+}
+.common-product-list-title.title-3 {
+	background: url(../css/img/header/header-p-03.png) no-repeat top left;
+	background-size: 36px 36px;
+}
+.common-product-list-title.title-3:hover {
+	background: url(../css/img/header/header-p-active-03.png) no-repeat top left;
+	background-size: 36px 36px;
+}
+.common-product-list-title.title-4 {
+	background: url(../css/img/header/header-p-04.png) no-repeat top left;
+	background-size: 36px 36px;
+}
+.common-product-list-title.title-4:hover {
+	background: url(../css/img/header/header-p-active-04.png) no-repeat top left;
+	background-size: 36px 36px;
+}
+.common-product-list-item {
+	display: block;
+	padding-left: 60px;
+	line-height: 28px;
+	font-size: 12px;
+	color: #fff;
+}
+.common-product-list-item:hover {
+	color: #ef7d18;
+}
+
 </style>
