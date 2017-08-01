@@ -13,6 +13,7 @@ Vue.use(VueResource);
 import index from './component/index.vue';
 import about from './component/about.vue';
 import service from './component/service.vue';
+import productList from './component/productList.vue';
 import productDetail from './component/productDetail.vue';
 import commonHeader from './component/commonHeader.vue';
 const arctile={ template: '<div><h2>404</h2></div>' };
@@ -33,6 +34,10 @@ const router = new VueRouter({
     {
       path: '/service/',
       component: service
+    },
+    {
+      path: '/product/list',
+      component: productList
     },
     {
       path: '/product/detail',
