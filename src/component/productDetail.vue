@@ -23,32 +23,32 @@ export default {
   data () {
     return {
     	productList:{
-    		"001":{
-    			topUrl:require('../assets/productdetail/top-001.jpg'),
-    			botUrl:require('../assets/productdetail/bot-001.jpg'),
+    		"01001001":{
+    			topUrl:require('../assets/productdetail/zt01001/zt01-top-001.jpg'),
+    			botUrl:require('../assets/productdetail/zt01001/zt01-bot-001.jpg'),
     			title:"产品展示>LED无影灯>满天星LED无影灯>满天星吊式单头LED无影灯"
     		},
-    		"002":{
-    			topUrl:require('../assets/productdetail/top-002.jpg'),
-    			botUrl:require('../assets/productdetail/bot-002.jpg'),
+    		"01001002":{
+    			topUrl:require('../assets/productdetail/zt01001/zt01-top-002.jpg'),
+    			botUrl:require('../assets/productdetail/zt01001/zt01-bot-002.jpg'),
     			title:"产品展示>LED无影灯>满天星LED无影灯>满天星吊式单头LED无影灯"
     		},
-    		"003":{
-    			topUrl:require('../assets/productdetail/top-003.jpg'),
-    			botUrl:require('../assets/productdetail/bot-003.jpg'),
+    		"01001003":{
+    			topUrl:require('../assets/productdetail/zt01001/zt01-top-003.jpg'),
+    			botUrl:require('../assets/productdetail/zt01001/zt01-bot-003.jpg'),
     			title:"产品展示>LED无影灯>满天星LED无影灯>满天星吊式单头LED无影灯"
     		},
-    		"004":{
-    			topUrl:require('../assets/productdetail/top-004.jpg'),
-    			botUrl:require('../assets/productdetail/bot-004.jpg'),
+    		"01001004":{
+    			topUrl:require('../assets/productdetail/zt01001/zt01-top-004.jpg'),
+    			botUrl:require('../assets/productdetail/zt01001/zt01-bot-004.jpg'),
     			title:"产品展示>LED无影灯>满天星LED无影灯>满天星吊式单头LED无影灯"
     		}
     	},
     	styleTopObj:{
-    		 background: 'url('+require('../assets/productdetail/top-001.jpg')+') no-repeat center'
+    		 background: ''
     	},
     	styleBotObj:{
-    		 background: 'url('+require('../assets/productdetail/bot-001.jpg')+') no-repeat center'
+    		 background: ''
     	},
     	productTitle:"产品展示>LED无影灯>满天星LED无影灯>满天星吊式单头LED无影灯"
     }
@@ -57,9 +57,13 @@ export default {
 	created:function(){
 		var vm=this;
 		var hash=location.hash.replace("#","");
-		console.log(vm.productList[hash].topUrl)
-		vm.styleTopObj.background='url('+vm.productList[hash].topUrl+') no-repeat center';
-		vm.styleBotObj.background='url('+vm.productList[hash].botUrl+') no-repeat center';
+		if(vm.productList[hash]){
+			vm.styleTopObj.background='url('+vm.productList[hash].topUrl+') no-repeat center';
+			vm.styleBotObj.background='url('+vm.productList[hash].botUrl+') no-repeat center';
+		}else {
+			alert("不存在该商品")
+		}
+		
 		//hash改变事件
 		window.onhashchange = function() {
 			vm.peoductChange()

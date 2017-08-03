@@ -39,7 +39,7 @@
 	export default {
 		data() {
 			return {
-				commonHeaderIsShow:true,
+				commonHeaderIsShow:false,
 				navlist: [{
 					name: "首页",
 					url: "/",
@@ -74,32 +74,32 @@
 					},
 					{
 						name:"LED观光灯",
-						url:"javascript:;",
+						url:"/product/list#02",
 						productList:[
-							{name:"超薄液晶侧发光LED观片灯",url:"javascript:;"},
-							{name:"超高亮背发光LED观片灯",url:"javascript:;"},
-							{name:"嵌入式LED观片灯",url:"javascript:;"}
+							{name:"超薄液晶侧发光LED观片灯",url:"/product/list#02001"},
+							{name:"超高亮背发光LED观片灯",url:"/product/list#02002"},
+							{name:"嵌入式LED观片灯",url:"/product/list#02003"}
 						]
 					},
 					{
 						name:"LED视力表",
-						url:"javascript:;",
+						url:"/product/list#03",
 						productList:[
-							{name:"多功能LED视力表",url:"javascript:;"},
-							{name:"5米E字LED视力表",url:"javascript:;"},
-							{name:"5米C字LED视力表",url:"javascript:;"},
-							{name:"2.5米儿童LED视力表",url:"javascript:;"},
-							{name:"超薄款2.5米E字视力表",url:"javascript:;"}
+							{name:"多功能LED视力表",url:"/product/detail#03001001"},
+							{name:"5米E字LED视力表",url:"/product/detail#03002001"},
+							{name:"5米C字LED视力表",url:"/product/detail#03003001"},
+							{name:"2.5米儿童LED视力表",url:"/product/detail#03004001"},
+							{name:"超薄款2.5米E字视力表",url:"/product/detail#03005001"}
 							
 						]
 					},
 					{
 						name:"更多产品",
-						url:"javascript:;",
+						url:"/product/list#04",
 						productList:[
-							{name:"LED净化灯",url:"javascript:;"},
-							{name:"医用显示器",url:"javascript:;"},
-							{name:"模拟触电体验仪",url:"javascript:;"}
+							{name:"LED净化灯",url:"/product/detail#04001001"},
+							{name:"医用显示器",url:"/product/detail#04002001"},
+							{name:"模拟触电体验仪",url:"/product/detail#04003001"}
 						]
 					}
 				]
