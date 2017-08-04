@@ -23,9 +23,9 @@
 				<div class="common-header-product-list">
 					<div v-for="(item,index) in headerProductList" class="common-header-product-item">
 						<p class="common-product-list-title" :class="'title-' + (index+1)">
-							<router-link :to="item.url">{{item.name}}</router-link>
+							<a :href="item.url">{{item.name}}</a>
 						</p>
-						<router-link v-for="child in item.productList" class="common-product-list-item" :to="child.url">{{child.name}}</router-link>
+						<a v-for="child in item.productList" class="common-product-list-item" :href="child.url">{{child.name}}</a>
 					</div>
 					
 				</div>

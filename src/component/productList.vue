@@ -8,12 +8,12 @@
 			</div>
 			<div class="product-list-content-wrapper">
 				<div class="product-list-content content clearfix">
-					<router-link v-for="item in pageListArr" class="product-list-item-a" :to="item.linkSrc">
+					<a v-for="item in pageListArr" class="product-list-item-a" :href="item.linkSrc">
 						<img :src="item.imgUrl"/>
 						<span class="product-list-item-name">
 							{{item.name}}
 						</span>
-					</router-link>
+					</a>
 				</div>
 			</div>
 		</div>
@@ -269,6 +269,7 @@ export default {
 		vm.pageListArr=vm.productList[hash].listArr;
 		//hash改变事件
 		window.onhashchange = function() {
+			console.log(0)
 			vm.peoductChange()
 		};
 	},
