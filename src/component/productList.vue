@@ -8,12 +8,12 @@
 			</div>
 			<div class="product-list-content-wrapper">
 				<div class="product-list-content content clearfix">
-					<a v-for="item in pageListArr" class="product-list-item-a" :href="item.linkSrc">
+					<router-link v-for="item in pageListArr" class="product-list-item-a" :to="item.linkSrc">
 						<img :src="item.imgUrl"/>
 						<span class="product-list-item-name">
 							{{item.name}}
 						</span>
-					</a>
+					</router-link>
 				</div>
 			</div>
 		</div>
