@@ -124,8 +124,8 @@ export default {
 	margin: 0 auto;
 }
 .about-banner {
-	height: 1334px;
-	background:url(../css/img/about/about-banner.jpg)  no-repeat center ;
+	height: 744px;
+	background:url(../css/img/about/about-banner.jpg)  no-repeat center #333;
 }
 .about-list-wrapper {
 	margin-bottom: 78px;

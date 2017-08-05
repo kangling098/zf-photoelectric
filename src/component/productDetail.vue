@@ -6,12 +6,13 @@
 					{{productTitle}}
 				</p>
 			</div>
-			<div class="product-detail-item product-detail-top" :style="styleTopObj">
+			<!--<div class="product-detail-item product-detail-top" :style="styleTopObj">
 				
 			</div>
 			<div class="product-detail-item product-detail-bottom" :style="styleBotObj">
 				
-			</div>
+			</div>-->
+			<img v-for="item in imgList" :src="item.src"/>
 		</div>
 	</div>
 	
@@ -42,14 +43,24 @@ export default {
     			topUrl:require('../assets/productdetail/zt01001/zt01-top-004.jpg'),
     			botUrl:require('../assets/productdetail/zt01001/zt01-bot-004.jpg'),
     			title:"产品展示>LED无影灯>满天星LED无影灯>满天星吊式单头LED无影灯"
+    		},
+    		"01002001":{
+    			productTitle:"产品展示>LED无影灯>满天星LED无影灯>满天星LED无影灯",
+	    		imgList:[
+	    			{src:require('../assets/productdetail/zt01002/zt01002001/pic_01.jpg')},
+	    			{src:require('../assets/productdetail/zt01002/zt01002001/pic_02.jpg')},
+	    			{src:require('../assets/productdetail/zt01002/zt01002001/pic_03.jpg')},
+	    			{src:require('../assets/productdetail/zt01002/zt01002001/pic_04.jpg')},
+	    			{src:require('../assets/productdetail/zt01002/zt01002001/pic_05.jpg')},
+	    			{src:require('../assets/productdetail/zt01002/zt01002001/pic_06.jpg')},
+	    			{src:require('../assets/productdetail/zt01002/zt01002001/pic_07.jpg')},
+	    			{src:require('../assets/productdetail/zt01002/zt01002001/pic_08.jpg')},
+	    			{src:require('../assets/productdetail/zt01002/zt01002001/pic_09.jpg')},
+	    			{src:require('../assets/productdetail/zt01002/zt01002001/pic_10.jpg')}
+	    		]
     		}
     	},
-    	styleTopObj:{
-    		 background: ''
-    	},
-    	styleBotObj:{
-    		 background: ''
-    	},
+    	imgList:[],
     	productTitle:"产品展示>LED无影灯>满天星LED无影灯>满天星吊式单头LED无影灯"
     }
   },
@@ -58,8 +69,8 @@ export default {
 		var vm=this;
 		var hash=location.hash.replace("#","");
 		if(vm.productList[hash]){
-			vm.styleTopObj.background='url('+vm.productList[hash].topUrl+') no-repeat center';
-			vm.styleBotObj.background='url('+vm.productList[hash].botUrl+') no-repeat center';
+			vm.imgList=vm.productList[hash].imgList;
+			vm.productTitle=vm.productList[hash].productTitle;
 		}else {
 			alert("不存在该商品")
 		}
@@ -83,8 +94,8 @@ export default {
 			var vm=this;
 			var hash=location.hash.replace("#","");
 			if(vm.productList[hash]){
-				vm.styleTopObj.background='url('+vm.productList[hash].topUrl+') no-repeat center';
-				vm.styleBotObj.background='url('+vm.productList[hash].botUrl+') no-repeat center';
+				vm.imgList=vm.productList[hash].imgList;
+				vm.productTitle=vm.productList[hash].productTitle;
 			}else {
 				alert("不存在该商品")
 			}
@@ -113,14 +124,11 @@ export default {
 	font-size: 20px;
 	color: #fff;
 }
-.product-detail-top {
+.product-detail-wrapper img {
+	display: block;
+	margin: 0 auto;
 	width: 100%;
-	height: 630px;
-	background-color: #ccc;
-}
-.product-detail-bottom {
-	width: 100%;
-	height: 1050px;
-	background-color: #009FD9;
+	max-width: 1600px;
+	min-width: 1200px;
 }
 </style>

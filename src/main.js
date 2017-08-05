@@ -13,6 +13,7 @@ Vue.use(VueResource);
 import index from './component/index.vue';
 import about from './component/about.vue';
 import service from './component/service.vue';
+import join from './component/join.vue';
 import productList from './component/productList.vue';
 import productDetail from './component/productDetail.vue';
 import commonHeader from './component/commonHeader.vue';
@@ -44,8 +45,8 @@ const router = new VueRouter({
       component: productDetail
     },
     {
-      path: '/second',
-      component: commonHeader
+      path: '/join/',
+      component: join
     },
     {
       path: '/news/arctile/',
