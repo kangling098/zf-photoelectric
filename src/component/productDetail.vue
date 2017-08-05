@@ -53,7 +53,6 @@ export default {
 	    			{src:require('../assets/productdetail/zt01002/zt01002001/pic_04.jpg')},
 	    			{src:require('../assets/productdetail/zt01002/zt01002001/pic_05.jpg')},
 	    			{src:require('../assets/productdetail/zt01002/zt01002001/pic_06.jpg')},
-	    			{src:require('../assets/productdetail/zt01002/zt01002001/pic_07.jpg')},
 	    			{src:require('../assets/productdetail/zt01002/zt01002001/pic_08.jpg')},
 	    			{src:require('../assets/productdetail/zt01002/zt01002001/pic_09.jpg')},
 	    			{src:require('../assets/productdetail/zt01002/zt01002001/pic_10.jpg')}
