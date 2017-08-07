@@ -66,18 +66,11 @@ export default {
 //components: { commonHeader },
 	created:function(){
 		var vm=this;
-		var hash=location.hash.replace("#","");
-		if(vm.productList[hash]){
-			vm.imgList=vm.productList[hash].imgList;
-			vm.productTitle=vm.productList[hash].productTitle;
-		}else {
-			alert("不存在该商品")
-		}
-		
-		//hash改变事件
-		window.onhashchange = function() {
-			vm.peoductChange()
-		};
+		var productVal=vm.$route.params.id;
+		vm.productChange(productVal);
+		eventbus.$on('routeChange',function(val){
+			vm.productChange(val)
+		})
 	},
 	methods:{
 		//控制显示哪一个关于兆丰模块
@@ -88,17 +81,12 @@ export default {
 			}
 			vm.aboutPageList['item'+index]=true;
 		},
-		peoductChange(){
-			
-			var vm=this;
-			var hash=location.hash.replace("#","");
-			if(vm.productList[hash]){
-				vm.imgList=vm.productList[hash].imgList;
-				vm.productTitle=vm.productList[hash].productTitle;
-			}else {
-				alert("不存在该商品")
+		productChange(val){
+			var vm = this;
+			if(vm.productList[val]){
+				vm.imgList=vm.productList[val].imgList;
+				vm.productTitle=vm.productList[val].productTitle;
 			}
-			
 		}
 	}
   
