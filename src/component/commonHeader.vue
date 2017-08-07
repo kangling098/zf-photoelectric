@@ -52,7 +52,7 @@
 					active:false
 				}, {
 					name: "产品展示",
-					url: "/product/list#01",
+					url: "/product/list01",
 					active:false
 				}, {
 					name: "用户服务",
