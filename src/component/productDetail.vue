@@ -27,89 +27,67 @@ export default {
     		"01001001":{
     			productTitle:"产品展示>LED无影灯>整体反射式无影灯>整体反射吊式LED无影灯",
 	    		imgList:[
-	    			{src:require('../assets/productdetail/zt01001/zt01001001/pic_01.jpg')},
-	    			{src:require('../assets/productdetail/zt01001/zt01001001/pic_02.jpg')},
-	    			{src:require('../assets/productdetail/zt01001/zt01001001/pic_03.jpg')},
-	    			{src:require('../assets/productdetail/zt01001/zt01001001/pic_04.jpg')},
-	    			{src:require('../assets/productdetail/zt01001/zt01001001/pic_05.jpg')},
-	    			{src:require('../assets/productdetail/zt01001/zt01001001/pic_06.jpg')},
-	    			{src:require('../assets/productdetail/zt01001/zt01001001/pic_07.jpg')},
-	    			{src:require('../assets/productdetail/zt01001/zt01001001/pic_08.jpg')},
-	    			{src:require('../assets/productdetail/zt01001/zt01001001/pic_09.jpg')},
-	    			{src:require('../assets/productdetail/zt01001/zt01001001/pic_10.jpg')},
-	    			{src:require('../assets/productdetail/zt01001/zt01001001/pic_11.jpg')}
+	    			{src:require('../assets/productdetail/zt01001/zt01001001/zt01001001_pic_01.jpg')},
+	    			{src:require('../assets/productdetail/zt01001/zt01001001/zt01001001_pic_02.jpg')},
+	    			{src:require('../assets/productdetail/zt01001/zt01001001/zt01001001_pic_03.jpg')},
+	    			{src:require('../assets/productdetail/zt01001/zt01001001/zt01001001_pic_04.jpg')},
+	    			{src:require('../assets/productdetail/zt01001/zt01001001/zt01001001_pic_05.jpg')},
+	    			{src:require('../assets/productdetail/zt01001/zt01001001/zt01001001_pic_06.jpg')},
+	    			{src:require('../assets/productdetail/zt01001/zt01001001/zt01001001_pic_07.jpg')},
+	    			{src:require('../assets/productdetail/zt01001/zt01001001/zt01001001_pic_08.jpg')},
+	    			{src:require('../assets/productdetail/zt01001/zt01001001/zt01001001_pic_09.jpg')},
+	    			{src:require('../assets/productdetail/zt01001/zt01001001/zt01001001_pic_10.jpg')},
+	    			{src:require('../assets/productdetail/zt01001/zt01001001/zt01001001_pic_11.jpg')}
 	    			
 	    		]
-    		},
-    		"01001002":{
+    		}
+    		,
+    		"01002001":{
     			productTitle:"产品展示>LED无影灯>满天星LED无影灯>满天星吊式双头LED无影灯",
 	    		imgList:[
-	    			{src:require('../assets/productdetail/zt01001/zt01001001/pic_01.jpg')},
-	    			{src:require('../assets/productdetail/zt01001/zt01001001/pic_02.jpg')},
-	    			{src:require('../assets/productdetail/zt01001/zt01001001/pic_03.jpg')},
-	    			{src:require('../assets/productdetail/zt01001/zt01001001/pic_04.jpg')},
-	    			{src:require('../assets/productdetail/zt01001/zt01001001/pic_05.jpg')},
-	    			{src:require('../assets/productdetail/zt01001/zt01001001/pic_06.jpg')},
-	    			{src:require('../assets/productdetail/zt01001/zt01001001/pic_07.jpg')},
-	    			{src:require('../assets/productdetail/zt01001/zt01001001/pic_08.jpg')},
-	    			{src:require('../assets/productdetail/zt01001/zt01001001/pic_09.jpg')},
-	    			{src:require('../assets/productdetail/zt01001/zt01001001/pic_10.jpg')}
+	    			{src:require('../assets/productdetail/zt01002/zt01002001/zt01002001_pic_01.jpg')},
+	    			{src:require('../assets/productdetail/zt01002/zt01002001/zt01002001_pic_02.jpg')},
+	    			{src:require('../assets/productdetail/zt01002/zt01002001/zt01002001_pic_03.jpg')},
+	    			{src:require('../assets/productdetail/zt01002/zt01002001/zt01002001_pic_04.jpg')},
+	    			{src:require('../assets/productdetail/zt01002/zt01002001/zt01002001_pic_05.jpg')},
+	    			{src:require('../assets/productdetail/zt01002/zt01002001/zt01002001_pic_06.jpg')},
+	    			{src:require('../assets/productdetail/zt01002/zt01002001/zt01002001_pic_07.jpg')},
+	    			{src:require('../assets/productdetail/zt01002/zt01002001/zt01002001_pic_08.jpg')},
+	    			{src:require('../assets/productdetail/zt01002/zt01002001/zt01002001_pic_09.jpg')},
+	    			{src:require('../assets/productdetail/zt01002/zt01002001/zt01002001_pic_10.jpg')}
 	    			
 	    		]
-    		},
-    		"01001003":{
-    			topUrl:require('../assets/productdetail/zt01001/zt01-top-003.jpg'),
-    			botUrl:require('../assets/productdetail/zt01001/zt01-bot-003.jpg'),
-    			title:"产品展示>LED无影灯>满天星LED无影灯>满天星吊式单头LED无影灯"
-    		},
-    		"01001004":{
-    			topUrl:require('../assets/productdetail/zt01001/zt01-top-004.jpg'),
-    			botUrl:require('../assets/productdetail/zt01001/zt01-bot-004.jpg'),
-    			title:"产品展示>LED无影灯>满天星LED无影灯>满天星吊式单头LED无影灯"
-    		},
-    		"01002001":{
-    			productTitle:"产品展示>LED无影灯>满天星LED无影灯>满天星LED无影灯",
-	    		imgList:[
-	    			{src:require('../assets/productdetail/zt01002/zt01002001/pic_01.jpg')},
-	    			{src:require('../assets/productdetail/zt01002/zt01002001/pic_02.jpg')},
-	    			{src:require('../assets/productdetail/zt01002/zt01002001/pic_03.jpg')},
-	    			{src:require('../assets/productdetail/zt01002/zt01002001/pic_04.jpg')},
-	    			{src:require('../assets/productdetail/zt01002/zt01002001/pic_05.jpg')},
-	    			{src:require('../assets/productdetail/zt01002/zt01002001/pic_06.jpg')},
-	    			{src:require('../assets/productdetail/zt01002/zt01002001/pic_08.jpg')},
-	    			{src:require('../assets/productdetail/zt01002/zt01002001/pic_09.jpg')},
-	    			{src:require('../assets/productdetail/zt01002/zt01002001/pic_10.jpg')}
-	    		]
-    		},
+    		}
+    		,
     		"02001003":{
     			productTitle:"产品展示>LED观光灯>超薄液晶侧发光LED观光灯>超薄侧发光三联LED观光灯",
 	    		imgList:[
-	    			{src:require('../assets/productdetail/zt02001/zt02001003/pic_01.jpg')},
-	    			{src:require('../assets/productdetail/zt02001/zt02001003/pic_02.jpg')},
-	    			{src:require('../assets/productdetail/zt02001/zt02001003/pic_03.jpg')},
-	    			{src:require('../assets/productdetail/zt02001/zt02001003/pic_04.jpg')},
-	    			{src:require('../assets/productdetail/zt02001/zt02001003/pic_05.jpg')},
-	    			{src:require('../assets/productdetail/zt02001/zt02001003/pic_06.jpg')},
-	    			{src:require('../assets/productdetail/zt02001/zt02001003/pic_07.jpg')},
-	    			{src:require('../assets/productdetail/zt02001/zt02001003/pic_08.jpg')},
-	    			{src:require('../assets/productdetail/zt02001/zt02001003/pic_09.jpg')},
-	    			{src:require('../assets/productdetail/zt02001/zt02001003/pic_10.jpg')}
+	    			{src:require('../assets/productdetail/zt02001/zt02001003/zt02001003_pic_01.jpg')},
+	    			{src:require('../assets/productdetail/zt02001/zt02001003/zt02001003_pic_02.jpg')},
+	    			{src:require('../assets/productdetail/zt02001/zt02001003/zt02001003_pic_03.jpg')},
+	    			{src:require('../assets/productdetail/zt02001/zt02001003/zt02001003_pic_04.jpg')},
+	    			{src:require('../assets/productdetail/zt02001/zt02001003/zt02001003_pic_05.jpg')},
+	    			{src:require('../assets/productdetail/zt02001/zt02001003/zt02001003_pic_06.jpg')},
+	    			{src:require('../assets/productdetail/zt02001/zt02001003/zt02001003_pic_07.jpg')},
+	    			{src:require('../assets/productdetail/zt02001/zt02001003/zt02001003_pic_08.jpg')},
+	    			{src:require('../assets/productdetail/zt02001/zt02001003/zt02001003_pic_09.jpg')},
+	    			{src:require('../assets/productdetail/zt02001/zt02001003/zt02001003_pic_10.jpg')}
 	    		]
     		},
     		"02002003":{
     			productTitle:"产品展示>LED观光灯>超薄亮背发光LED观光灯>超高亮背发光三联LED观光灯",
 	    		imgList:[
-	    			{src:require('../assets/productdetail/zt02002/zt02002003/pic_01.jpg')},
-	    			{src:require('../assets/productdetail/zt02002/zt02002003/pic_02.jpg')},
-	    			{src:require('../assets/productdetail/zt02002/zt02002003/pic_03.jpg')},
-	    			{src:require('../assets/productdetail/zt02002/zt02002003/pic_04.jpg')},
-	    			{src:require('../assets/productdetail/zt02002/zt02002003/pic_05.jpg')},
-	    			{src:require('../assets/productdetail/zt02002/zt02002003/pic_06.jpg')},
-	    			{src:require('../assets/productdetail/zt02002/zt02002003/pic_07.jpg')},
-	    			{src:require('../assets/productdetail/zt02002/zt02002003/pic_08.jpg')},
-	    			{src:require('../assets/productdetail/zt02002/zt02002003/pic_09.jpg')},
-	    			{src:require('../assets/productdetail/zt02002/zt02002003/pic_10.jpg')},
-	    			{src:require('../assets/productdetail/zt02002/zt02002003/pic_11.jpg')}
+	    			{src:require('../assets/productdetail/zt02002/zt02002003/zt02002003_pic_01.jpg')},
+	    			{src:require('../assets/productdetail/zt02002/zt02002003/zt02002003_pic_02.jpg')},
+	    			{src:require('../assets/productdetail/zt02002/zt02002003/zt02002003_pic_03.jpg')},
+	    			{src:require('../assets/productdetail/zt02002/zt02002003/zt02002003_pic_04.jpg')},
+	    			{src:require('../assets/productdetail/zt02002/zt02002003/zt02002003_pic_05.jpg')},
+	    			{src:require('../assets/productdetail/zt02002/zt02002003/zt02002003_pic_06.jpg')},
+	    			{src:require('../assets/productdetail/zt02002/zt02002003/zt02002003_pic_07.jpg')},
+	    			{src:require('../assets/productdetail/zt02002/zt02002003/zt02002003_pic_08.jpg')},
+	    			{src:require('../assets/productdetail/zt02002/zt02002003/zt02002003_pic_09.jpg')},
+	    			{src:require('../assets/productdetail/zt02002/zt02002003/zt02002003_pic_10.jpg')},
+	    			{src:require('../assets/productdetail/zt02002/zt02002003/zt02002003_pic_11.jpg')}
 	    		]
     		}
     	},
