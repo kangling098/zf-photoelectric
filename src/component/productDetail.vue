@@ -96,7 +96,7 @@ export default {
 	    			{src:require('../assets/productdetail/zt02001/zt02001003/pic_10.jpg')}
 	    		]
     		},
-    		"02001003":{
+    		"02002003":{
     			productTitle:"产品展示>LED观光灯>超薄亮背发光LED观光灯>超高亮背发光三联LED观光灯",
 	    		imgList:[
 	    			{src:require('../assets/productdetail/zt02002/zt02002003/pic_01.jpg')},
@@ -120,18 +120,11 @@ export default {
 //components: { commonHeader },
 	created:function(){
 		var vm=this;
-		var hash=location.hash.replace("#","");
-		if(vm.productList[hash]){
-			vm.imgList=vm.productList[hash].imgList;
-			vm.productTitle=vm.productList[hash].productTitle;
-		}else {
-			alert("不存在该商品")
-		}
-		
-		//hash改变事件
-		window.onhashchange = function() {
-			vm.peoductChange()
-		};
+		var productVal=vm.$route.params.id;
+		vm.productChange(productVal);
+		eventbus.$on('routeChange',function(val){
+			vm.productChange(val)
+		})
 	},
 	methods:{
 		//控制显示哪一个关于兆丰模块
@@ -142,17 +135,12 @@ export default {
 			}
 			vm.aboutPageList['item'+index]=true;
 		},
-		peoductChange(){
-			
-			var vm=this;
-			var hash=location.hash.replace("#","");
-			if(vm.productList[hash]){
-				vm.imgList=vm.productList[hash].imgList;
-				vm.productTitle=vm.productList[hash].productTitle;
-			}else {
-				alert("不存在该商品")
+		productChange(val){
+			var vm = this;
+			if(vm.productList[val]){
+				vm.imgList=vm.productList[val].imgList;
+				vm.productTitle=vm.productList[val].productTitle;
 			}
-			
 		}
 	}
   

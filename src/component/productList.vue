@@ -35,22 +35,22 @@ export default {
 	    			{
 		    			imgUrl:require('../assets/productlist/t01/wuying001.jpg'),
 		    			name:'整体反射式无影灯',
-		    			linkSrc:"/product/list#01001"
+		    			linkSrc:"/product/list01001"
 	    			},
 	    			{
 		    			imgUrl:require('../assets/productlist/t01/wuying002.jpg'),
 		    			name:'满天星LED无影灯',
-		    			linkSrc:"/product/list#01002"
+		    			linkSrc:"/product/list01002"
 	    			},
 	    			{
 		    			imgUrl:require('../assets/productlist/t01/wuying003.jpg'),
 		    			name:'移动式LED无影灯',
-		    			linkSrc:"/product/list#01003"
+		    			linkSrc:"/product/list01003"
 	    			},
 	    			{
 		    			imgUrl:require('../assets/productlist/t01/wuying004.jpg'),
 		    			name:'LED无影灯发光引擎',
-		    			linkSrc:"/product/list#01004"
+		    			linkSrc:"/product/list01004"
 	    			}
     			]
     		},
@@ -60,22 +60,22 @@ export default {
 	    			{
 		    			imgUrl:require('../assets/productlist/t01001/zt01001001.jpg'),
 		    			name:'整体反射吊式LED无影灯',
-		    			linkSrc:"/product/detail#01001001"
+		    			linkSrc:"/product/detail01001001"
 	    			},
 	    			{
 		    			imgUrl:require('../assets/productlist/t01001/zt01001002.jpg'),
 		    			name:'整体反射吊式单头LED无影灯',
-		    			linkSrc:"/product/detail#01001002"
+		    			linkSrc:"/product/detail01001002"
 	    			},
 	    			{
 		    			imgUrl:require('../assets/productlist/t01001/zt01001003.jpg'),
 		    			name:'整体反射立式移动LED无影灯',
-		    			linkSrc:"/product/detail#01001003"
+		    			linkSrc:"/product/detail01001003"
 	    			},
 	    			{
 		    			imgUrl:require('../assets/productlist/t01001/zt01001004.jpg'),
 		    			name:'整体反射LED发光引擎',
-		    			linkSrc:"/product/detail#01001004"
+		    			linkSrc:"/product/detail01001004"
 	    			}
     			]
     		},
@@ -85,17 +85,17 @@ export default {
 	    			{
 		    			imgUrl:require('../assets/productlist/t01002/zt01002001.jpg'),
 		    			name:'满天星吊式双头LED无影灯',
-		    			linkSrc:"/product/detail#01002001"
+		    			linkSrc:"/product/detail01002001"
 	    			},
 	    			{
 		    			imgUrl:require('../assets/productlist/t01002/zt01002002.jpg'),
 		    			name:'满天星吊式单头LED无影灯',
-		    			linkSrc:"/product/detail#01002002"
+		    			linkSrc:"/product/detail01002002"
 	    			},
 	    			{
 		    			imgUrl:require('../assets/productlist/t01002/zt01002003.jpg'),
 		    			name:'满天星立式移动LED无影灯',
-		    			linkSrc:"/product/detail#01002003"
+		    			linkSrc:"/product/detail01002003"
 	    			}
     			]
     		},
@@ -105,12 +105,12 @@ export default {
 	    			{
 		    			imgUrl:require('../assets/productlist/t01003/zt01003001.jpg'),
 		    			name:'整体反射立式移动式LED无影灯',
-		    			linkSrc:"/product/detail#01003001"
+		    			linkSrc:"/product/detail01003001"
 	    			},
 	    			{
 		    			imgUrl:require('../assets/productlist/t01003/zt01003002.jpg'),
 		    			name:'满天星立式移动式LED无影灯',
-		    			linkSrc:"/product/detail#01003002"
+		    			linkSrc:"/product/detail01003002"
 	    			}
     			]
     		},
@@ -120,7 +120,7 @@ export default {
 	    			{
 		    			imgUrl:require('../assets/productlist/t01004/zt01004001.jpg'),
 		    			name:'LED无影灯发光引擎',
-		    			linkSrc:"/product/detail#01004001"
+		    			linkSrc:"/product/detail01004001"
 	    			}
     			]
     		},
@@ -130,17 +130,17 @@ export default {
 	    			{
 		    			imgUrl:require('../assets/productlist/t02/zt02001.jpg'),
 		    			name:'超薄液晶侧发光LED观片灯',
-		    			linkSrc:"/product/list#02001"
+		    			linkSrc:"/product/list02001"
 	    			},
 	    			{
 		    			imgUrl:require('../assets/productlist/t02/zt02002.jpg'),
 		    			name:'超高亮背发光LED观片灯',
-		    			linkSrc:"/product/list#02002"
+		    			linkSrc:"/product/list02002"
 	    			},
 	    			{
 		    			imgUrl:require('../assets/productlist/t02/zt02003.jpg'),
 		    			name:'嵌入式LED观片灯',
-		    			linkSrc:"/product/list#02003"
+		    			linkSrc:"/product/list02003"
 	    			}
     			]
     		},
@@ -150,22 +150,22 @@ export default {
 	    			{
 		    			imgUrl:require('../assets/productlist/t02001/zt02001001.jpg'),
 		    			name:'超薄单联LED观片灯',
-		    			linkSrc:"/product/detail#02001001"
+		    			linkSrc:"/product/detail02001001"
 	    			},
 	    			{
 		    			imgUrl:require('../assets/productlist/t02001/zt02001002.jpg'),
 		    			name:'超薄双联LED观片灯',
-		    			linkSrc:"/product/detail#02001002"
+		    			linkSrc:"/product/detail02001002"
 	    			},
 	    			{
 		    			imgUrl:require('../assets/productlist/t02001/zt02001003.jpg'),
 		    			name:'超薄三联LED观片灯',
-		    			linkSrc:"/product/detail#02001003"
+		    			linkSrc:"/product/detail02001003"
 	    			},
 	    			{
 		    			imgUrl:require('../assets/productlist/t02001/zt02001004.jpg'),
 		    			name:'超薄四联LED观片灯',
-		    			linkSrc:"/product/detail#02001004"
+		    			linkSrc:"/product/detail02001004"
 	    			}
     			]
     		},
@@ -175,27 +175,27 @@ export default {
 	    			{
 		    			imgUrl:require('../assets/productlist/t02002/zt02002001.jpg'),
 		    			name:'超高亮单联LED观片灯',
-		    			linkSrc:"/product/detail#02002001"
+		    			linkSrc:"/product/detail02002001"
 	    			},
 	    			{
 		    			imgUrl:require('../assets/productlist/t02002/zt02002002.jpg'),
 		    			name:'超高亮双联LED观片灯',
-		    			linkSrc:"/product/detail#02002002"
+		    			linkSrc:"/product/detail02002002"
 	    			},
 	    			{
 		    			imgUrl:require('../assets/productlist/t02002/zt02002003.jpg'),
 		    			name:'超高亮三联LED观片灯',
-		    			linkSrc:"/product/detail#02002003"
+		    			linkSrc:"/product/detail02002003"
 	    			},
 	    			{
 		    			imgUrl:require('../assets/productlist/t02002/zt02002004.jpg'),
 		    			name:'超高亮四联LED观片灯',
-		    			linkSrc:"/product/detail#02002004"
+		    			linkSrc:"/product/detail02002004"
 	    			},
 	    			{
 		    			imgUrl:require('../assets/productlist/t02002/zt02002005.jpg'),
 		    			name:'超高亮五联LED观片灯',
-		    			linkSrc:"/product/detail#02002005"
+		    			linkSrc:"/product/detail02002005"
 	    			}
     			]
     		},
@@ -205,7 +205,7 @@ export default {
 	    			{
 		    			imgUrl:require('../assets/productlist/t02003/zt02003001.jpg'),
 		    			name:'六联嵌入式LED观片灯',
-		    			linkSrc:"/product/detail#02003001"
+		    			linkSrc:"/product/detail02003001"
 	    			}
     			]
     		},
@@ -215,27 +215,27 @@ export default {
 	    			{
 		    			imgUrl:require('../assets/productlist/t03/zt03001.jpg'),
 		    			name:'多功能LED视力表',
-		    			linkSrc:"/product/detail#03001001"
+		    			linkSrc:"/product/detail03001001"
 	    			},
 	    			{
 		    			imgUrl:require('../assets/productlist/t03/zt03002.jpg'),
 		    			name:'5米E字LED视力表',
-		    			linkSrc:"/product/detail#03002001"
+		    			linkSrc:"/product/detail03002001"
 	    			},
 	    			{
 		    			imgUrl:require('../assets/productlist/t03/zt03003.jpg'),
 		    			name:'5米C字LED视力表',
-		    			linkSrc:"/product/detail#03003001"
+		    			linkSrc:"/product/detail03003001"
 	    			},
 	    			{
 		    			imgUrl:require('../assets/productlist/t03/zt03004.jpg'),
 		    			name:'2.5米儿童LED视力表',
-		    			linkSrc:"/product/detail#03004001"
+		    			linkSrc:"/product/detail03004001"
 	    			},
 	    			{
 		    			imgUrl:require('../assets/productlist/t03/zt03005.jpg'),
 		    			name:'超薄款2.5米E字视力表',
-		    			linkSrc:"/product/detail#03005001"
+		    			linkSrc:"/product/detail03005001"
 	    			}
     			]
     		},
@@ -245,17 +245,17 @@ export default {
 	    			{
 		    			imgUrl:require('../assets/productlist/t04/zt04001.jpg'),
 		    			name:'LED净化灯',
-		    			linkSrc:"/product/detail#04001001"
+		    			linkSrc:"/product/detail04001001"
 	    			},
 	    			{
 		    			imgUrl:require('../assets/productlist/t04/zt04002.jpg'),
 		    			name:'医用显示器',
-		    			linkSrc:"/product/detail#04002001"
+		    			linkSrc:"/product/detail04002001"
 	    			},
 	    			{
 		    			imgUrl:require('../assets/productlist/t04/zt04003.jpg'),
 		    			name:'触电体验仪',
-		    			linkSrc:"/product/detail#04003001"
+		    			linkSrc:"/product/detail04003001"
 	    			}
     			]
     		}
@@ -265,13 +265,20 @@ export default {
 //components: { commonHeader },
 	created:function(){
 		var vm=this;
-		var hash=location.hash.replace("#","");
-		vm.pageListArr=vm.productList[hash].listArr;
-		//hash改变事件
-		window.onhashchange = function() {
-			console.log(0)
-			vm.peoductChange()
-		};
+//		var hash=location.hash.replace("","");
+//		vm.pageListArr=vm.productList[hash].listArr;
+//		//hash改变事件
+//		window.onhashchange = function() {
+//			console.log(0)
+//			vm.peoductChange()
+//		};
+		var productVal=vm.$route.params.id;
+		vm.productChange(productVal);
+		eventbus.$on('routeChange',function(val){
+			vm.productChange(val)
+		})
+	},
+	wtach:{
 	},
 	methods:{
 		//控制显示哪一个关于兆丰模块
@@ -282,16 +289,11 @@ export default {
 			}
 			vm.aboutPageList['item'+index]=true;
 		},
-		peoductChange(){
-			
-			var vm=this;
-			var hash=location.hash.replace("#","");
-			if(vm.productList[hash]){
-				vm.pageListArr=vm.productList[hash].listArr;
-			}else {
-				alert("不存在该商品")
+		productChange(val){
+			var vm = this;
+			if(vm.productList[val]){
+				vm.pageListArr=vm.productList[val].listArr;
 			}
-			
 		}
 	}
   
@@ -307,14 +309,14 @@ export default {
 .product-list-title-wrapper {
 	margin-bottom: 20px;
 	height: 60px;
-	background-color: #8a8988;
+	background-color: 8a8988;
 }
 .product-list-title {
 	margin: 0 auto;
 	width: 970px;
 	line-height: 60px;
 	font-size: 20px;
-	color: #fff;
+	color: fff;
 }
 .product-list-content-wrapper {
 	margin: 0 auto;
@@ -336,9 +338,9 @@ export default {
 	line-height: 24px;
 	margin-top: 10px;
 	margin-left: 10px;
-	border-left: 1px solid #333333;
+	border-left: 1px solid 333333;
 	font-size: 14px;
-	color: #333;
+	color: 333;
 	text-indent: 26px;
 }
 </style>

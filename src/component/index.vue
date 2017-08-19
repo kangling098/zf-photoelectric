@@ -82,16 +82,16 @@ export default {
       			url:"/1"
       		},
       		banner2:{
-      			url:"/2"
+      			url:"/product/list01001"
       		},
       		banner3:{
-      			url:"/3"
+      			url:"/product/detail04001001"
       		},
       		banner4:{
-      			url:"/4"
+      			url:"/product/list02"
       		},
       		banner5:{
-      			url:"/5"
+      			url:"/product/list03"
       		}
       	},
       	list:[
@@ -142,7 +142,7 @@ export default {
 //components: { commonHeader },
 	created:function(){
 		var vm=this;
-		setInterval(function(){
+		vm.intervalId=setInterval(function(){
 			if(vm.num<5){
 				vm.num=vm.num+1;
 				vm.bannerNum="banner"+vm.num
@@ -157,6 +157,16 @@ export default {
 		bannerChoose(num){
 			var vm = this;
 			vm.num=num;
+			clearInterval(vm.intervalId);
+			vm.intervalId=setInterval(function(){
+				if(vm.num<5){
+					vm.num=vm.num+1;
+					vm.bannerNum="banner"+vm.num
+				}else {
+					vm.num=1;
+					vm.bannerNum="banner"+vm.num
+				}
+			},5000)
 		}
 		
 	}
@@ -177,6 +187,7 @@ export default {
 	width: 100%;
 	height: 484px;
 	background:url(../css/img/index/banner-bg-1.jpg)  no-repeat center #eee5dc;
+	transition: background-image 1s; 
 }
 .banner-link {
 	position: absolute;

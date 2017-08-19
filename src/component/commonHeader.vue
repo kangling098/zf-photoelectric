@@ -25,7 +25,9 @@
 						<p class="common-product-list-title" :class="'title-' + (index+1)">
 							<a @click="commonHeaderHide()" :href="item.url">{{item.name}}</a>
 						</p>
-						<a @click="commonHeaderHide()" v-for="child in item.productList" class="common-product-list-item" :href="child.url">{{child.name}}</a>
+						<template v-for="child in item.productList">
+							<a @click="commonHeaderHide()" class="common-product-list-item" :href="child.url">{{child.name}}</a>
+						</template>
 					</div>
 					
 				</div>
@@ -50,7 +52,7 @@
 					active:false
 				}, {
 					name: "产品展示",
-					url: "/product/list#01",
+					url: "/product/list01",
 					active:false
 				}, {
 					name: "用户服务",
@@ -64,42 +66,42 @@
 				headerProductList:[
 					{
 						name:"LED无影灯",
-						url:"/product/list#01",
+						url:"/product/list01",
 						productList:[
-							{name:"整体反射式无影灯",url:"/product/list#01001"},
-							{name:"满天星LED无影灯",url:"/product/list#01002"},
-							{name:"移动式LED无影灯",url:"/product/list#01003"},
-							{name:"LED无影灯发光引擎",url:"/product/list#01004"}
+							{name:"整体反射式无影灯",url:"/product/list01001"},
+							{name:"满天星LED无影灯",url:"/product/list01002"},
+							{name:"移动式LED无影灯",url:"/product/list01003"},
+							{name:"LED无影灯发光引擎",url:"/product/list01004"}
 						]
 					},
 					{
 						name:"LED观光灯",
-						url:"/product/list#02",
+						url:"/product/list02",
 						productList:[
-							{name:"超薄液晶侧发光LED观片灯",url:"/product/list#02001"},
-							{name:"超高亮背发光LED观片灯",url:"/product/list#02002"},
-							{name:"嵌入式LED观片灯",url:"/product/list#02003"}
+							{name:"超薄液晶侧发光LED观片灯",url:"/product/list02001"},
+							{name:"超高亮背发光LED观片灯",url:"/product/list02002"},
+							{name:"嵌入式LED观片灯",url:"/product/list02003"}
 						]
 					},
 					{
 						name:"LED视力表",
-						url:"/product/list#03",
+						url:"/product/list03",
 						productList:[
-							{name:"多功能LED视力表",url:"/product/detail#03001001"},
-							{name:"5米E字LED视力表",url:"/product/detail#03002001"},
-							{name:"5米C字LED视力表",url:"/product/detail#03003001"},
+							{name:"多功能LED视力表",url:"/product/detail03001001"},
+							{name:"5米E字LED视力表",url:"/product/detail03002001"},
+							{name:"5米C字LED视力表",url:"/product/detail03003001"},
 							{name:"2.5米儿童LED视力表",url:"/product/detail#03004001"},
-							{name:"超薄款2.5米E字视力表",url:"/product/detail#03005001"}
+							{name:"超薄款2.5米E字视力表",url:"/product/detail03005001"}
 							
 						]
 					},
 					{
 						name:"更多产品",
-						url:"/product/list#04",
+						url:"/product/list04",
 						productList:[
-							{name:"LED净化灯",url:"/product/detail#04001001"},
-							{name:"医用显示器",url:"/product/detail#04002001"},
-							{name:"模拟触电体验仪",url:"/product/detail#04003001"}
+							{name:"LED净化灯",url:"/product/detail04001001"},
+							{name:"医用显示器",url:"/product/detail04002001"},
+							{name:"模拟触电体验仪",url:"/product/detail04003001"}
 						]
 					}
 				]
@@ -133,6 +135,12 @@
 		created:function(){
 			var vm=this;
 			
+		},
+		watch:{
+			'$route' () {
+				var vm=this;
+				eventbus.$emit("routeChange",vm.$route.params.id);
+			}
 		}
 		
 	}
