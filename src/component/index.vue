@@ -187,7 +187,7 @@ export default {
 	width: 100%;
 	height: 484px;
 	background:url(../css/img/index/banner-bg-1.jpg)  no-repeat center #eee5dc;
-	transition: background-image 1s; 
+	transition: all 1s; 
 }
 .banner-link {
 	position: absolute;
