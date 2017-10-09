@@ -32,10 +32,10 @@
 	    			<div class="news-item-title">
 	    				新品推荐&nbsp;&nbsp;&nbsp;&nbsp;<span class="news-item-title-english">New Arrivals</span>
 	    			</div>
-	    			<div class="product-bg">
+	    			<a href="/product/list02001" class="product-bg">
 	    				<p class="product-title">ZG-2B</p>
 	    				<p class="product-sub-title">超薄液晶LED观光灯</p>
-	    			</div>
+	    			</a>
 	    		</div>
 	    		<div class="news-item-content news-item-2">
 	    			<div class="news-item-title">
@@ -79,7 +79,7 @@ export default {
       banner:{
       	mainBanner:{
       		banner1:{
-      			url:"/1"
+      			url:"/product/list01"
       		},
       		banner2:{
       			url:"/product/list01001"
@@ -125,16 +125,16 @@ export default {
       },
       news:{
       	list:[
-      		{
-      			title:"照明行业细分市场1啊实打实大的大大神的",
-      			url:"/news/arctile/#1"
-      		},{
-      			title:"照明行业细分市场5",
-      			url:"/news/arctile/#2"
-      		},{
-      			title:"照明行业细分市场3分市场3分市场3分市场3",
-      			url:"/news/arctile/#3"
-      		}
+//    		{
+//    			title:"照明行业细分市场1啊实打实大的大大神的",
+//    			url:"/news/arctile/#1"
+//    		},{
+//    			title:"照明行业细分市场5",
+//    			url:"/news/arctile/#2"
+//    		},{
+//    			title:"照明行业细分市场3分市场3分市场3分市场3",
+//    			url:"/news/arctile/#3"
+//    		}
       	]
       }
     }
@@ -317,6 +317,7 @@ export default {
 	font-style:oblique;
 }
 .product-bg {
+	display: block;
 	text-align: right;
 	margin-top: 40px;
 	width: 100%;

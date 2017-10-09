@@ -96,19 +96,19 @@ export default {
     	productList:[
 	    	{
 	    		imgSrc:require('../assets/service/service-product-bg1.jpg'),
-	    		url:"javascript:;"
+	    		url:"/product/list01"
 	    	},{        
 	    		imgSrc:require('../assets/service/service-product-bg2.jpg'),
-	    		url:"javascript:;"
+	    		url:"/product/list02"
 	    	},{        
 	    		imgSrc:require('../assets/service/service-product-bg3.jpg'),
-	    		url:"javascript:;"
+	    		url:"/product/list03"
 	    	},{        
 	    		imgSrc:require('../assets/service/service-product-bg4.jpg'),
-	    		url:"javascript:;"
+	    		url:"/product/list04001001"
 	    	},{         
 	    		imgSrc:require('../assets/service/service-product-bg5.jpg'),
-	    		url:"javascript:;"
+	    		url:"/product/list04002001"
 	    	}
     	],
     	technicalFileList:[

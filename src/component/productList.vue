@@ -46,7 +46,8 @@ export default {
 		    			imgUrl:require('../assets/productlist/t01/wuying003.jpg'),
 		    			name:'移动式LED无影灯',
 		    			linkSrc:"/product/list01003"
-	    			},
+	    			}
+	    			,
 	    			{
 		    			imgUrl:require('../assets/productlist/t01/wuying004.jpg'),
 		    			name:'LED无影灯发光引擎',
@@ -64,18 +65,24 @@ export default {
 	    			},
 	    			{
 		    			imgUrl:require('../assets/productlist/t01001/zt01001002.jpg'),
-		    			name:'整体反射吊式单头LED无影灯',
+		    			name:'整体反射吊式单头500D LED无影灯',
 		    			linkSrc:"/product/detail01001002"
+	    			},
+	    			{
+		    			imgUrl:require('../assets/productlist/t01001/zt01001002.jpg'),
+		    			name:'整体反射吊式单头700D LED无影灯',
+		    			linkSrc:"/product/detail01001003"
 	    			},
 	    			{
 		    			imgUrl:require('../assets/productlist/t01001/zt01001003.jpg'),
 		    			name:'整体反射立式移动LED无影灯',
-		    			linkSrc:"/product/detail01001003"
-	    			},
+		    			linkSrc:"/product/detail01001004"
+	    			}
+	    			,
 	    			{
 		    			imgUrl:require('../assets/productlist/t01001/zt01001004.jpg'),
 		    			name:'整体反射LED发光引擎',
-		    			linkSrc:"/product/detail01001004"
+		    			linkSrc:"/product/detail01001005"
 	    			}
     			]
     		},
@@ -89,13 +96,18 @@ export default {
 	    			},
 	    			{
 		    			imgUrl:require('../assets/productlist/t01002/zt01002002.jpg'),
-		    			name:'满天星吊式单头LED无影灯',
+		    			name:'满天星吊式单头500E LED无影灯',
 		    			linkSrc:"/product/detail01002002"
+	    			},
+	    			{
+		    			imgUrl:require('../assets/productlist/t01002/zt01002002.jpg'),
+		    			name:'满天星吊式单头700E LED无影灯',
+		    			linkSrc:"/product/detail01002003"
 	    			},
 	    			{
 		    			imgUrl:require('../assets/productlist/t01002/zt01002003.jpg'),
 		    			name:'满天星立式移动LED无影灯',
-		    			linkSrc:"/product/detail01002003"
+		    			linkSrc:"/product/detail01002004"
 	    			}
     			]
     		},
@@ -105,12 +117,12 @@ export default {
 	    			{
 		    			imgUrl:require('../assets/productlist/t01003/zt01003001.jpg'),
 		    			name:'整体反射立式移动式LED无影灯',
-		    			linkSrc:"/product/detail01003001"
+		    			linkSrc:"/product/detail01001004"
 	    			},
 	    			{
 		    			imgUrl:require('../assets/productlist/t01003/zt01003002.jpg'),
 		    			name:'满天星立式移动式LED无影灯',
-		    			linkSrc:"/product/detail01003002"
+		    			linkSrc:"/product/detail01002004"
 	    			}
     			]
     		},
