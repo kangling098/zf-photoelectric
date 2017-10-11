@@ -305,6 +305,7 @@ export default {
 			var vm = this;
 			if(vm.productList[val]){
 				vm.pageListArr=vm.productList[val].listArr;
+				vm.pageTitle=vm.productList[val].title;
 			}
 		}
 	}

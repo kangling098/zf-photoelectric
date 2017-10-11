@@ -21,7 +21,7 @@
 		</div>
 	    <div class="auto banner-bottom">
 	    	<div class="content">
-		    	<a class="banner-more-link" href="javascript:;">
+		    	<a class="banner-more-link" href="/product/list01">
 		    		 更多&gt;&nbsp;&nbsp;&nbsp;
 		    	</a>
 	    	</div>

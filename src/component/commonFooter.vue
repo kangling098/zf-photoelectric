@@ -15,28 +15,28 @@
 			<div class="white-border"></div>
 			<div class="common-footer-bottom content clearfix">
 				<ul class="common-footer-bottom-ul">
-					<li><a href="">公司简介</a></li>
-					<li><a href="">企业文化</a></li>
-					<li><a href="">组织结构</a></li>
-					<li><a href="">荣耀资质</a></li>
+					<li><a href="/about/">公司简介</a></li>
+					<li><a href="/about/">企业文化</a></li>
+					<li><a href="/about/">组织结构</a></li>
+					<li><a href="/about/">荣耀资质</a></li>
 				</ul>
 				<ul class="common-footer-bottom-ul">
-					<li><a href="">用户案例</a></li>
-					<li><a href="">人才招聘</a></li>
+					<li><a href="javascript:;">用户案例</a></li>
+					<li><a href="/join/">人才招聘</a></li>
 					<!--<li><a href="">在线留言</a></li>-->
-					<li><a href="">联系我们</a></li>
+					<li><a href="/service/">联系我们</a></li>
 				</ul>
 				<ul class="common-footer-bottom-ul">
-					<li><a href="">LED高亮背发光观片灯</a></li>
-					<li><a href="">LED超薄液晶观片灯</a></li>
-					<li><a href="">LED整体反射无影灯</a></li>
-					<li><a href="">LED满天星无影灯</a></li>
+					<li><a href="/product/list02002">LED高亮背发光观片灯</a></li>
+					<li><a href="/product/list02001">LED超薄液晶观片灯</a></li>
+					<li><a href="/product/list01001">LED整体反射无影灯</a></li>
+					<li><a href="/product/list01002">LED满天星无影灯</a></li>
 				</ul>
 				<ul class="common-footer-bottom-ul special">
-					<li><a href="">LED视力表</a></li>
-					<li><a href="">LED净化灯</a></li>
-					<li><a href="">医用显示器</a></li>
-					<li><a href="">触电体验仪</a></li>
+					<li><a href="/product/list03">LED视力表</a></li>
+					<li><a href="javascript:;">LED净化灯</a></li>
+					<li><a href="javascript:;">医用显示器</a></li>
+					<li><a href="javascript:;">触电体验仪</a></li>
 				</ul>
 				<div class="we-chat-code-wrapper pull-left">
 					<span>微信公众号</span>
@@ -156,7 +156,8 @@
 		margin-top: 4px;
 		width: 70px;
 		height: 70px;
-		background-color: #fff;
+		background: url(../css/img/wechat_code.jpg) no-repeat center;
+		background-size: 100%;
 	}
 	.hot-num-wrapper {
 		padding-top: 12px;
