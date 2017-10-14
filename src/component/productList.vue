@@ -200,12 +200,12 @@ export default {
 		    			linkSrc:"/product/detail02002003"
 	    			},
 	    			{
-		    			imgUrl:require('../assets/productlist/t02002/zt02002004.jpg'),
+		    			imgUrl:require('../assets/productlist/t02002/zt02002005.jpg'),
 		    			name:'超高亮四联LED观片灯',
 		    			linkSrc:"/product/detail02002004"
 	    			},
 	    			{
-		    			imgUrl:require('../assets/productlist/t02002/zt02002005.jpg'),
+		    			imgUrl:require('../assets/productlist/t02002/zt02002004.jpg'),
 		    			name:'超高亮五联LED观片灯',
 		    			linkSrc:"/product/detail02002005"
 	    			}
@@ -231,24 +231,25 @@ export default {
 	    			},
 	    			{
 		    			imgUrl:require('../assets/productlist/t03/zt03002.jpg'),
-		    			name:'5米E字LED视力表',
+		    			name:'5米字LED视力表',
 		    			linkSrc:"/product/detail03002001"
 	    			},
-	    			{
-		    			imgUrl:require('../assets/productlist/t03/zt03003.jpg'),
-		    			name:'5米C字LED视力表',
-		    			linkSrc:"/product/detail03003001"
-	    			},
+//	    			{
+//		    			imgUrl:require('../assets/productlist/t03/zt03003.jpg'),
+//		    			name:'5米C字LED视力表',
+//		    			linkSrc:"/product/detail03003001"
+//	    			},
 	    			{
 		    			imgUrl:require('../assets/productlist/t03/zt03004.jpg'),
-		    			name:'2.5米儿童LED视力表',
+		    			name:'儿童LED视力表超薄款',
 		    			linkSrc:"/product/detail03004001"
-	    			},
-	    			{
-		    			imgUrl:require('../assets/productlist/t03/zt03005.jpg'),
-		    			name:'超薄款2.5米E字视力表',
-		    			linkSrc:"/product/detail03005001"
 	    			}
+//	    			,
+//	    			{
+//		    			imgUrl:require('../assets/productlist/t03/zt03005.jpg'),
+//		    			name:'超薄款2.5米E字视力表',
+//		    			linkSrc:"/product/detail03005001"
+//	    			}
     			]
     		},
     		"04":{

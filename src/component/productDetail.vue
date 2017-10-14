@@ -318,7 +318,7 @@ export default {
     		}
     		,
     		"03004001":{
-    			productTitle:"产品展示>LED视力表>多功能LED视力表",
+    			productTitle:"产品展示>LED视力表>儿童LED视力表超薄款",
 	    		imgList:[
 	    			{src:require('../assets/productdetail/zt03004/zt03004001/zt03004001_pic_01.jpg')},
 	    			{src:require('../assets/productdetail/zt03004/zt03004001/zt03004001_pic_02.jpg')},

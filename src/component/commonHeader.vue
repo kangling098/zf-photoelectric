@@ -88,10 +88,10 @@
 						url:"/product/list03",
 						productList:[
 							{name:"多功能LED视力表",url:"/product/detail03001001"},
-							{name:"5米E字LED视力表",url:"/product/detail03002001"},
-							{name:"5米C字LED视力表",url:"/product/detail03003001"},
-							{name:"2.5米儿童LED视力表",url:"/product/detail03004001"},
-							{name:"超薄款2.5米E字视力表",url:"/product/detail03005001"}
+							{name:"5米LED视力表",url:"/product/detail03002001"},
+//							{name:"5米C字LED视力表",url:"/product/detail03003001"},
+							{name:"儿童LED视力表超薄款",url:"/product/detail03004001"}
+//							{name:"超薄款2.5米E字视力表",url:"/product/detail03005001"}
 							
 						]
 					},
