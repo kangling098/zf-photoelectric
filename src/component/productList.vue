@@ -241,7 +241,7 @@ export default {
 //	    			},
 	    			{
 		    			imgUrl:require('../assets/productlist/t03/zt03004.jpg'),
-		    			name:'儿童LED视力表超薄款',
+		    			name:'儿童LED视力表',
 		    			linkSrc:"/product/detail03004001"
 	    			}
 //	    			,

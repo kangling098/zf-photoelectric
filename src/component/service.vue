@@ -22,18 +22,21 @@
 							湖南兆丰光电科技有限公司
 						</p>
 						<p class="p-type-2">
-							地址：中国.湖南长沙市雨花区环保中路188号国企中心2号厂房A104
+							地址：中国.湖南长沙市雨花区环保中路188号国企中心2号厂房
 						</p>
 						<p>
-							电话：+86-731-85229795  85229796  85229777
+							电话：0731-85229796  0731-85229777  +86-731-85229795  
 						</p>
 						<p>
-							传真:+86-731-82881477
+							QQ：3002959091
 						</p>
 						<p>
-							网址：http://www.mplent.com     http://www.mplent@mplent.com
+							网址：http://www.mplent.com 
 						</p>
-						<p class="p-type-3">
+						<p>
+							邮箱：mpt@mplent.com
+						</p>
+						<!--<p class="p-type-3">
 							东北地区（辽宁/吉林/黑龙江）：<br/>
             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; +86-1731-85229795     18874962016 刘婷<br/>
             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  QQ:3002916307           Emall:alice@mplent.com
@@ -52,7 +55,7 @@
 							其他地区（河南/湖北/湖南/广东/广西/海南/陕西/甘肃/青海/宁夏/新疆）：<br/>
              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;+86-0731-85229795     13974942022  何建平<br/>
              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;QQ：3002937239          Emall:bjp@mplent.com
-						</p>
+						</p>-->
 					</div>
 					<div v-if="aboutPageList.item2" class="service-page-content-02 service-product-wrapper clearfix">
 						
