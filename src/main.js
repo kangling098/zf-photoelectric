@@ -17,7 +17,7 @@ import join from './component/join.vue';
 import productList from './component/productList.vue';
 import productDetail from './component/productDetail.vue';
 import commonHeader from './component/commonHeader.vue';
-const arctile={ template: '<div><h2>404</h2></div>' };
+import news from './component/news.vue';
 // 创建一个路由器实例
 // 并且配置路由规则
 const router = new VueRouter({
@@ -49,13 +49,13 @@ const router = new VueRouter({
       component: join
     },
     {
-      path: '/news/arctile/',
-      component: arctile
+      path: '/news/arctile:id',
+      component: news
     }
     ,
     { 
     	path: '*',
-    	component: arctile
+    	component: index
     }
     
   ]

@@ -125,10 +125,11 @@ export default {
       },
       news:{
       	list:[
-//    		{
-//    			title:"照明行业细分市场1啊实打实大的大大神的",
-//    			url:"/news/arctile/#1"
-//    		},{
+      		{
+      			title:"兆丰光电引领LED医用照明，隆重亮相第78届中国国际医疗器械（秋季）博览会",
+      			url:"/news/arctile01001"
+      		}
+//			,{
 //    			title:"照明行业细分市场5",
 //    			url:"/news/arctile/#2"
 //    		},{
