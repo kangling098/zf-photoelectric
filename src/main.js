@@ -49,7 +49,12 @@ const router = new VueRouter({
       component: join
     },
     {
-      path: '/news/arctile:id',
+      path: '/news/arctile',
+      component: news
+    }
+    ,
+    {
+      path: '/news/arctile1',
       component: news
     }
     ,

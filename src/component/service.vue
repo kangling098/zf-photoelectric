@@ -116,7 +116,7 @@ export default {
     	],
     	technicalFileList:[
     		{url:"javascript:;",name:"兆丰光电电子产业资料"},
-    		{url:"javascript:;",name:"LED观片灯使用说明书"},
+    		{url:"javascript:;",name:"LED观光灯使用说明书"},
     		{url:"javascript:;",name:"LED视力表使用说明书"},
     		{url:"javascript:;",name:"LED无影灯使用说明书"},
     		{url:"javascript:;",name:"视力表厂家的视力表灯箱"},

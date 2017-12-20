@@ -287,6 +287,22 @@ export default {
 	    			{src:require('../assets/productdetail/zt02002/zt02002004/zt02002004_pic_10.jpg')},
 	    			{src:require('../assets/productdetail/zt02002/zt02002004/zt02002004_pic_11.jpg')}
 	    		]
+    		},
+    		"02002005":{
+    			productTitle:"产品展示>LED观光灯>超薄亮背发光LED观光灯>超高亮背发光五联LED观光灯",
+	    		imgList:[
+	    			{src:require('../assets/productdetail/zt02002/zt02002005/zt02002005_pic_01.jpg')},
+	    			{src:require('../assets/productdetail/zt02002/zt02002005/zt02002005_pic_02.jpg')},
+	    			{src:require('../assets/productdetail/zt02002/zt02002005/zt02002005_pic_03.jpg')},
+	    			{src:require('../assets/productdetail/zt02002/zt02002005/zt02002005_pic_04.jpg')},
+	    			{src:require('../assets/productdetail/zt02002/zt02002005/zt02002005_pic_05.jpg')},
+	    			{src:require('../assets/productdetail/zt02002/zt02002005/zt02002005_pic_06.jpg')},
+	    			{src:require('../assets/productdetail/zt02002/zt02002005/zt02002005_pic_07.jpg')},
+	    			{src:require('../assets/productdetail/zt02002/zt02002005/zt02002005_pic_08.jpg')},
+	    			{src:require('../assets/productdetail/zt02002/zt02002005/zt02002005_pic_10.jpg')},
+	    			{src:require('../assets/productdetail/zt02002/zt02002005/zt02002005_pic_12.jpg')},
+	    			{src:require('../assets/productdetail/zt02002/zt02002005/zt02002005_pic_13.jpg')}
+	    		]
     		}
     		,
     		"03001001":{
@@ -328,6 +344,14 @@ export default {
 	    			{src:require('../assets/productdetail/zt03004/zt03004001/zt03004001_pic_06.jpg')},
 	    			{src:require('../assets/productdetail/zt03004/zt03004001/zt03004001_pic_07.jpg')},
 	    			{src:require('../assets/productdetail/zt03004/zt03004001/zt03004001_pic_08.jpg')}
+	    		]
+    		},
+    		"04003001":{
+    			productTitle:"产品展示>更多产品>模拟触电体验仪",
+	    		imgList:[
+	    			{src:require('../assets/productdetail/zt04003/zt04003001/zt04003001_pic_01.jpg')},
+	    			{src:require('../assets/productdetail/zt04003/zt04003001/zt04003001_pic_02.jpg')},
+	    			{src:require('../assets/productdetail/zt04003/zt04003001/zt04003001_pic_03.jpg')}
 	    		]
     		}
     	},

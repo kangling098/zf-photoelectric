@@ -127,7 +127,7 @@ export default {
       	list:[
       		{
       			title:"兆丰光电引领LED医用照明，隆重亮相第78届中国国际医疗器械（秋季）博览会",
-      			url:"/news/arctile01001"
+      			url:"/news/arctile"
       		}
 //			,{
 //    			title:"照明行业细分市场5",
