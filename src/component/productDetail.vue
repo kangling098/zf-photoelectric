@@ -346,6 +346,15 @@ export default {
 	    			{src:require('../assets/productdetail/zt03004/zt03004001/zt03004001_pic_08.jpg')}
 	    		]
     		},
+    		"04001001":{
+    			productTitle:"产品展示>更多产品>模拟触电体验仪",
+	    		imgList:[
+	    			{src:require('../assets/productdetail/zt04001/zt04001001/zt04001001_pic_01.jpg')},
+	    			{src:require('../assets/productdetail/zt04001/zt04001001/zt04001001_pic_02.jpg')},
+	    			{src:require('../assets/productdetail/zt04001/zt04001001/zt04001001_pic_03.jpg')}
+	    		]
+    		}
+    		,
     		"04003001":{
     			productTitle:"产品展示>更多产品>模拟触电体验仪",
 	    		imgList:[
