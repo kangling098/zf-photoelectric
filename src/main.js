@@ -19,6 +19,8 @@ import productDetail from './component/productDetail.vue';
 import commonHeader from './component/commonHeader.vue';
 import news from './component/news.vue';
 import news1 from './component/news1.vue';
+import news2 from './component/news2.vue';
+import news3 from './component/news3.vue';
 // 创建一个路由器实例
 // 并且配置路由规则
 const router = new VueRouter({
@@ -57,6 +59,16 @@ const router = new VueRouter({
     {
       path: '/news/arctile1',
       component: news1
+    }
+    ,
+    {
+      path: '/news/arctile2',
+      component: news2
+    }
+    ,
+    {
+      path: '/news/arctile3',
+      component: news3
     }
     ,
     { 

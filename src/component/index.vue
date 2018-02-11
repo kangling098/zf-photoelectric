@@ -125,7 +125,14 @@ export default {
       },
       news:{
       	list:[
-      		
+      		{
+      			title:"参观学习，砥砺前行",
+      			url:"/news/arctile3"
+      		},
+      		{
+      			title:"印度尼西亚客户来访",
+      			url:"/news/arctile2"
+      		},
 			{
       			title:"湖南兆丰与你相约明月山",
       			url:"/news/arctile1"
@@ -134,10 +141,6 @@ export default {
       			title:"兆丰光电引领LED医用照明，隆重亮相第78届中国国际医疗器械（秋季）博览会",
       			url:"/news/arctile"
       		}
-//			,{
-//    			title:"照明行业细分市场3分市场3分市场3分市场3",
-//    			url:"/news/arctile/#3"
-//    		}
       	]
       }
     }
