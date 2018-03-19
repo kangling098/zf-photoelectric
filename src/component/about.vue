@@ -19,7 +19,7 @@
 				<div class="about-page-content content">
 					<div v-if="aboutPageList.item1" class="about-page-content-01">
 						<p>
-							湖南兆丰光电科技有限公司是专业化高品质的LED照明产品制造商。公司主要研发生产高品级医用LED观光灯/无影灯/
+							湖南兆丰光电科技有限公司是专业化高品质的LED照明产品制造商。公司主要研发生产高品级医用LED观片灯/无影灯/
 							检查灯/LED模组/LED灯条等产品，完全符合国家YY/T 0610-2007《医学影像照片观察装置通用技术条件》及GB/T24823
 							-2009《照明LED模块性能要求》行业标准，目前已通过CE、ROHS、CMA、ISO9001：2008等国际质量认
 						</p>

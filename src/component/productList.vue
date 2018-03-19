@@ -137,86 +137,86 @@ export default {
     			]
     		},
     		"02":{
-    			title:"产品展示>LED观光灯",
+    			title:"产品展示>LED观片灯",
     			listArr:[
 	    			{
 		    			imgUrl:require('../assets/productlist/t02/zt02001.jpg'),
-		    			name:'超薄液晶侧发光LED观光灯',
+		    			name:'超薄液晶侧发光LED观片灯',
 		    			linkSrc:"/product/list02001"
 	    			},
 	    			{
 		    			imgUrl:require('../assets/productlist/t02/zt02002.jpg'),
-		    			name:'超高亮背发光LED观光灯',
+		    			name:'超高亮背发光LED观片灯',
 		    			linkSrc:"/product/list02002"
 	    			},
 	    			{
 		    			imgUrl:require('../assets/productlist/t02/zt02003.jpg'),
-		    			name:'嵌入式LED观光灯',
+		    			name:'嵌入式LED观片灯',
 		    			linkSrc:"/product/list02003"
 	    			}
     			]
     		},
     		"02001":{
-    			title:"产品展示>LED观光灯>超薄液晶侧发光LED观光灯",
+    			title:"产品展示>LED观片灯>超薄液晶侧发光LED观片灯",
     			listArr:[
 	    			{
 		    			imgUrl:require('../assets/productlist/t02001/zt02001001.jpg'),
-		    			name:'超薄单联LED观光灯',
+		    			name:'超薄单联LED观片灯',
 		    			linkSrc:"/product/detail02001001"
 	    			},
 	    			{
 		    			imgUrl:require('../assets/productlist/t02001/zt02001002.jpg'),
-		    			name:'超薄双联LED观光灯',
+		    			name:'超薄双联LED观片灯',
 		    			linkSrc:"/product/detail02001002"
 	    			},
 	    			{
 		    			imgUrl:require('../assets/productlist/t02001/zt02001003.jpg'),
-		    			name:'超薄三联LED观光灯',
+		    			name:'超薄三联LED观片灯',
 		    			linkSrc:"/product/detail02001003"
 	    			},
 	    			{
 		    			imgUrl:require('../assets/productlist/t02001/zt02001004.jpg'),
-		    			name:'超薄四联LED观光灯',
+		    			name:'超薄四联LED观片灯',
 		    			linkSrc:"/product/detail02001004"
 	    			}
     			]
     		},
     		"02002":{
-    			title:"产品展示>LED观光灯>超高亮背发光LED观光灯",
+    			title:"产品展示>LED观片灯>超高亮背发光LED观片灯",
     			listArr:[
 	    			{
 		    			imgUrl:require('../assets/productlist/t02002/zt02002001.jpg'),
-		    			name:'超高亮单联LED观光灯',
+		    			name:'超高亮单联LED观片灯',
 		    			linkSrc:"/product/detail02002001"
 	    			},
 	    			{
 		    			imgUrl:require('../assets/productlist/t02002/zt02002002.jpg'),
-		    			name:'超高亮双联LED观光灯',
+		    			name:'超高亮双联LED观片灯',
 		    			linkSrc:"/product/detail02002002"
 	    			},
 	    			{
 		    			imgUrl:require('../assets/productlist/t02002/zt02002003.jpg'),
-		    			name:'超高亮三联LED观光灯',
+		    			name:'超高亮三联LED观片灯',
 		    			linkSrc:"/product/detail02002003"
 	    			},
 	    			{
 		    			imgUrl:require('../assets/productlist/t02002/zt02002005.jpg'),
-		    			name:'超高亮四联LED观光灯',
+		    			name:'超高亮四联LED观片灯',
 		    			linkSrc:"/product/detail02002004"
 	    			},
 	    			{
 		    			imgUrl:require('../assets/productlist/t02002/zt02002004.jpg'),
-		    			name:'超高亮五联LED观光灯',
+		    			name:'超高亮五联LED观片灯',
 		    			linkSrc:"/product/detail02002005"
 	    			}
     			]
     		},
     		"02003":{
-    			title:"产品展示>LED无影灯>嵌入式LED观光灯",
+    			title:"产品展示>LED无影灯>嵌入式LED观片灯",
     			listArr:[
 	    			{
 		    			imgUrl:require('../assets/productlist/t02003/zt02003001.jpg'),
-		    			name:'六联嵌入式LED观光灯',
+		    			name:'六联嵌入式LED观片灯',
 		    			linkSrc:"/product/detail02003001"
 	    			}
     			]

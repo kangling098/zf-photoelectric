@@ -34,7 +34,7 @@
 	    			</div>
 	    			<a href="/product/list02001" class="product-bg">
 	    				<p class="product-title">ZG-2B</p>
-	    				<p class="product-sub-title">超薄液晶LED观光灯</p>
+	    				<p class="product-sub-title">超薄液晶LED观片灯</p>
 	    			</a>
 	    		</div>
 	    		<div class="news-item-content news-item-2">
@@ -126,21 +126,44 @@ export default {
       news:{
       	list:[
       		{
+      			title:"美好三月，兆丰与你相约",
+      			url:"/news/arctile7"
+      		}
+      		,
+      		{
+      			title:"招聘简章",
+      			url:"/news/arctile6"
+      		}
+      		,
+      		{
+      			title:"开门红",
+      			url:"/news/arctile5"
+      		}
+      		,
+      		{
+      			title:"红红火火兆丰年",
+      			url:"/news/arctile4"
+      		}
+      		,
+      		{
       			title:"参观学习，砥砺前行",
       			url:"/news/arctile3"
-      		},
-      		{
-      			title:"印度尼西亚客户来访",
-      			url:"/news/arctile2"
-      		},
-			{
-      			title:"湖南兆丰与你相约明月山",
-      			url:"/news/arctile1"
-      		},
-			{
-      			title:"兆丰光电引领LED医用照明，隆重亮相第78届中国国际医疗器械（秋季）博览会",
-      			url:"/news/arctile"
       		}
+//    		,
+//    		{
+//    			title:"印度尼西亚客户来访",
+//    			url:"/news/arctile2"
+//    		}
+//    		,
+//			{
+//    			title:"湖南兆丰与你相约明月山",
+//    			url:"/news/arctile1"
+//    		}
+//			,
+//			{
+//    			title:"兆丰光电引领LED医用照明，隆重亮相第78届中国国际医疗器械（秋季）博览会",
+//    			url:"/news/arctile"
+//    		}
       	]
       }
     }

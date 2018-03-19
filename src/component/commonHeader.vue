@@ -75,12 +75,12 @@
 						]
 					},
 					{
-						name:"LED观光灯",
+						name:"LED观片灯",
 						url:"/product/list02",
 						productList:[
-							{name:"超薄液晶侧发光LED观光灯",url:"/product/list02001"},
-							{name:"超高亮背发光LED观光灯",url:"/product/list02002"},
-							{name:"嵌入式LED观光灯",url:"/product/list02003"}
+							{name:"超薄液晶侧发光LED观片灯",url:"/product/list02001"},
+							{name:"超高亮背发光LED观片灯",url:"/product/list02002"},
+							{name:"嵌入式LED观片灯",url:"/product/list02003"}
 						]
 					},
 					{

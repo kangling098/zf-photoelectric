@@ -165,7 +165,7 @@ export default {
     		}
     		,
     		"02001001":{
-    			productTitle:"产品展示>LED观光灯>超薄液晶侧发光LED观光灯>超薄侧发光单联LED观光灯",
+    			productTitle:"产品展示>LED观片灯>超薄液晶侧发光LED观片灯>超薄侧发光单联LED观片灯",
 	    		imgList:[
 	    			{src:require('../assets/productdetail/zt02001/zt02001001/zt02001001_pic_01.jpg')},
 	    			{src:require('../assets/productdetail/zt02001/zt02001001/zt02001001_pic_02.jpg')},
@@ -180,7 +180,7 @@ export default {
 	    		]
     		},
     		"02001002":{
-    			productTitle:"产品展示>LED观光灯>超薄液晶侧发光LED观光灯>超薄侧发光双联LED观光灯",
+    			productTitle:"产品展示>LED观片灯>超薄液晶侧发光LED观片灯>超薄侧发光双联LED观片灯",
 	    		imgList:[
 	    			{src:require('../assets/productdetail/zt02001/zt02001002/zt02001002_pic_01.jpg')},
 	    			{src:require('../assets/productdetail/zt02001/zt02001002/zt02001002_pic_02.jpg')},
@@ -195,7 +195,7 @@ export default {
 	    		]
     		},
     		"02001003":{
-    			productTitle:"产品展示>LED观光灯>超薄液晶侧发光LED观光灯>超薄侧发光三联LED观光灯",
+    			productTitle:"产品展示>LED观片灯>超薄液晶侧发光LED观片灯>超薄侧发光三联LED观片灯",
 	    		imgList:[
 	    			{src:require('../assets/productdetail/zt02001/zt02001003/zt02001003_pic_01.jpg')},
 	    			{src:require('../assets/productdetail/zt02001/zt02001003/zt02001003_pic_02.jpg')},
@@ -210,7 +210,7 @@ export default {
 	    		]
     		},
     		"02001004":{
-    			productTitle:"产品展示>LED观光灯>超薄液晶侧发光LED观光灯>超薄侧发光四联LED观光灯",
+    			productTitle:"产品展示>LED观片灯>超薄液晶侧发光LED观片灯>超薄侧发光四联LED观片灯",
 	    		imgList:[
 	    			{src:require('../assets/productdetail/zt02001/zt02001004/zt02001004_pic_01.jpg')},
 	    			{src:require('../assets/productdetail/zt02001/zt02001004/zt02001004_pic_02.jpg')},
@@ -225,7 +225,7 @@ export default {
 	    		]
     		},
     		"02002001":{
-    			productTitle:"产品展示>LED观光灯>超薄亮背发光LED观光灯>超高亮背发光单联LED观光灯",
+    			productTitle:"产品展示>LED观片灯>超薄亮背发光LED观片灯>超高亮背发光单联LED观片灯",
 	    		imgList:[
 	    			{src:require('../assets/productdetail/zt02002/zt02002001/zt02002001_pic_01.jpg')},
 	    			{src:require('../assets/productdetail/zt02002/zt02002001/zt02002001_pic_02.jpg')},
@@ -241,7 +241,7 @@ export default {
 	    		]
     		},
     		"02002002":{
-    			productTitle:"产品展示>LED观光灯>超薄亮背发光LED观光灯>超高亮背发光双联LED观光灯",
+    			productTitle:"产品展示>LED观片灯>超薄亮背发光LED观片灯>超高亮背发光双联LED观片灯",
 	    		imgList:[
 	    			{src:require('../assets/productdetail/zt02002/zt02002002/zt02002002_pic_01.jpg')},
 	    			{src:require('../assets/productdetail/zt02002/zt02002002/zt02002002_pic_02.jpg')},
@@ -257,7 +257,7 @@ export default {
 	    		]
     		},
     		"02002003":{
-    			productTitle:"产品展示>LED观光灯>超薄亮背发光LED观光灯>超高亮背发光三联LED观光灯",
+    			productTitle:"产品展示>LED观片灯>超薄亮背发光LED观片灯>超高亮背发光三联LED观片灯",
 	    		imgList:[
 	    			{src:require('../assets/productdetail/zt02002/zt02002003/zt02002003_pic_01.jpg')},
 	    			{src:require('../assets/productdetail/zt02002/zt02002003/zt02002003_pic_02.jpg')},
@@ -273,7 +273,7 @@ export default {
 	    		]
     		},
     		"02002004":{
-    			productTitle:"产品展示>LED观光灯>超薄亮背发光LED观光灯>超高亮背发光四联LED观光灯",
+    			productTitle:"产品展示>LED观片灯>超薄亮背发光LED观片灯>超高亮背发光四联LED观片灯",
 	    		imgList:[
 	    			{src:require('../assets/productdetail/zt02002/zt02002004/zt02002004_pic_01.jpg')},
 	    			{src:require('../assets/productdetail/zt02002/zt02002004/zt02002004_pic_02.jpg')},
@@ -289,7 +289,7 @@ export default {
 	    		]
     		},
     		"02002005":{
-    			productTitle:"产品展示>LED观光灯>超薄亮背发光LED观光灯>超高亮背发光五联LED观光灯",
+    			productTitle:"产品展示>LED观片灯>超薄亮背发光LED观片灯>超高亮背发光五联LED观片灯",
 	    		imgList:[
 	    			{src:require('../assets/productdetail/zt02002/zt02002005/zt02002005_pic_01.jpg')},
 	    			{src:require('../assets/productdetail/zt02002/zt02002005/zt02002005_pic_02.jpg')},

@@ -27,8 +27,8 @@
 					<li><a href="/service/">联系我们</a></li>
 				</ul>
 				<ul class="common-footer-bottom-ul">
-					<li><a href="/product/list02002">LED高亮背发光观光灯</a></li>
-					<li><a href="/product/list02001">LED超薄液晶观光灯</a></li>
+					<li><a href="/product/list02002">LED高亮背发光观片灯</a></li>
+					<li><a href="/product/list02001">LED超薄液晶观片灯</a></li>
 					<li><a href="/product/list01001">LED整体反射无影灯</a></li>
 					<li><a href="/product/list01002">LED满天星无影灯</a></li>
 				</ul>
